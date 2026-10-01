@@ -1,0 +1,95 @@
+{
+  "config": {
+    "company": "Ghanaz Travel And Event (G.T.A.E)",
+    "portalPin": "00001",
+    "adminPin": "020394",
+    "customerLink": "https://packages.ghanaz.com.my"
+  },
+  "trips": [
+    {
+      "id": "t1",
+      "name": "YUNNAN-9D7N",
+      "dir": "outbound",
+      "dest": "Kunming • Chuxiong • Dali • Lijiang",
+      "days": "9D7N",
+      "price": 5290,
+      "promo": 4890,
+      "promoUntil": "2027-01-31",
+      "material": "",
+      "image": "https://i.postimg.cc/qv7YCV5g/Chat-GPT-Image-Sep-23-2026-01-07-27-PM.png",
+      "commission": 300,
+      "active": true
+    },
+    {
+      "id": "t2",
+      "name": "SARAWAK HIGHLIGHTS - 4D3N (KUCHING-BAKO-ANNAH RAIS)",
+      "dir": "inbound",
+      "dest": "Sarawak, Malaysia",
+      "days": "4D3N",
+      "price": 1800,
+      "promo": 1700,
+      "promoUntil": "2026-12-31",
+      "material": "",
+      "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
+      "commission": 100,
+      "active": true
+    },
+    {
+      "id": "t71ryb7",
+      "name": "XINJIANG GOLDEN AUTUMN-9D7N",
+      "dir": "outbound",
+      "dest": "Kashgar • Yarkand • Taxkorgan • Karakul Lake • Golden Poplar Forest",
+      "days": "9D7N",
+      "price": 8599,
+      "promo": 7299,
+      "promoUntil": "2027-01-31",
+      "material": "",
+      "image": "https://i.postimg.cc/2SKz1x2C/Chat-GPT-Image-Sep-23-2026-01-18-36-PM.png",
+      "commission": 300,
+      "active": true
+    },
+    {
+      "id": "ttp6frg",
+      "name": "CLASSIC HATYAI-4D2N",
+      "dir": "outbound",
+      "dest": "Hatyai • Songkhla",
+      "days": "4D2N",
+      "price": 429,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "https://i.postimg.cc/0N1Rb4xt/Chat-GPT-Image-Sep-23-2026-07-57-31-PM.png",
+      "commission": 0,
+      "active": true
+    },
+    {
+      "id": "tmeastr",
+      "name": "CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N",
+      "tourCode": "HTYP4D2N",
+      "dir": "outbound",
+      "dest": "Hatyai • Songkhla",
+      "days": "4D2N",
+      "price": 705,
+      "promo": 699,
+      "promoUntil": "2026-12-31",
+      "material": "",
+      "image": "https://i.postimg.cc/nhb9s2PY/Chat-GPT-Image-Sep-24-2026-05-35-51-PM.png",
+      "commission": 0,
+      "active": true
+    },
+    {
+      "id": "t4fcllm",
+      "name": "SHANGHAI-5D4N (MUSLIM FRIENDLY)",
+      "dir": "outbound",
+      "dest": "Suzhou • Hangzhou",
+      "days": "5D4N",
+      "price": 3480,
+      "promo": 3380,
+      "promoUntil": "2026-12-31",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true
+    }
+  ]
+}

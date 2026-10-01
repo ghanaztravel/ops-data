@@ -1,0 +1,344 @@
+{
+  "config": {
+    "company": "Ghanaz Travel And Event (G.T.A.E)",
+    "whatsapp": "60108800854",
+    "email": "",
+    "asOf": "2026-10-01",
+    "editPin": ""
+  },
+  "trips": [
+    {
+      "id": "t1",
+      "name": "YUNNAN-9D7N",
+      "dir": "outbound",
+      "dest": "Kunming • Chuxiong • Dali • Lijiang",
+      "days": "9D7N",
+      "price": 5290,
+      "promo": 4890,
+      "promoUntil": "2027-01-31",
+      "material": "",
+      "image": "https://i.postimg.cc/qv7YCV5g/Chat-GPT-Image-Sep-23-2026-01-07-27-PM.png",
+      "itin": [
+        "Day 1 Kuala Lumpur - Kunming (MOB): 3★ Kunming – Yingrong Hotel (Arrival day) Fly from Kuala Lumpur to Kunming. Meet and greet at Kunming Airport, then transfer to the hotel for check-in.",
+        "Day 2 Kunming - Chuxiong(B/L/D): 3★ Chuxiong – Yingrong Hotel (Full sightseeing day) Naigu Stone Forest; seasonal fruit picking; Chuxiong Yi Ancient Town.",
+        "Day 3 Chuxiong → Dali(B/L/D): 3★ Dali – Youtu Resort Hotel (Cultural dining experience) Travel to Dali after breakfast. Jeep photography tour; Huayu Ranch; Dali Ancient Town; Foreigner Street; Yunnan-style Peacock Banquet.",
+        "Day 4 Dali(B/L/D): 3★ Dali – Youtu Resort Hotel (Heritage and village culture) Donglianhua Natural Village; Weishan Ancient Town.",
+        "Day 5 Dali → Lijiang(B/L/D): 3★ Lijiang – James Joyce Coffetel (Romance Show optional; RM 260 per person, not included)                                                        Travel to Lijiang after breakfast. Baisha Ancient Town; Yuhu Village, the first village beneath the Snow Mountain; optional Lijiang Romance Show.",
+        "Day 6 Lijiang → Dali(B/L/D): 3★ Dali – Youtu Resort Hotel (Electric shuttle included at Ideal Land)                                                                                              Lijiang Ancient Town; Black Dragon Pool Park; return to Dali; Santorini–Ideal Land, including the electric shuttle service.",
+        "Day 7 Dali → Kunming(B/L): 3★ Kunming – Yingrong Hotel (Dinner on own) Travel to Kunming in the morning. Dianchi Lake scenery; Shuncheng Street; Kunming Old Street. Dinner on own to sample local snacks",
+        "Day 8 Kunming(B/L/D): (Departure transfer according to flight schedule)          Silk Museum; Luosiwan International Trade City; Dounan Flower Market. Transfer to the airport according to flight time.",
+        "Day 9 Kunming → Kuala Lumpur: (Tour ends)                                                              Board the flight from Kunming to Kuala Lumpur.",
+        "----------------------------------------------------"
+      ],
+      "inc": [
+        "Return Flight",
+        "6 nights hotel accommodation",
+        "Daily meals as stated in itinerary",
+        "English-speaking tour guide",
+        "Transportation"
+      ],
+      "exc": [
+        "Personal expenses",
+        "Single room supplement",
+        "Any meals or services not specifically mentioned under Inclusions",
+        "Additional charges for shopping-free arrangement, if applicable",
+        "Travel insurance",
+        "Any other expenses not mentioned under Inclusions"
+      ],
+      "deps": [
+        {
+          "date": "2026-11-17",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-01-16",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-14",
+          "st": "open",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "SARAWAK HIGHLIGHTS - 4D3N (KUCHING-BAKO-ANNAH RAIS)",
+      "dir": "inbound",
+      "dest": "Sarawak, Malaysia",
+      "days": "4D3N",
+      "price": 1800,
+      "promo": 1700,
+      "promoUntil": "2026-12-31",
+      "material": "",
+      "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Kuching(_/_/D): 3★ Kuching – Hotel Accommodation (Arrival & City Heritage Day)Fly into Kuching International Airport; meet the tour guide and transfer to the hotel. Sightseeing at Kuching Waterfront, Fort Margherita, the Cat Museum, and the old town shophouses along India Street and Main Bazaar. Check in at the hotel. Welcome dinner in the evening.",
+        "Day 2 Kuching → Bako National Park → Kuching(B/L/D): 3★ Kuching – Hotel Accommodation (Rainforest & Wildlife Day) Depart by road to Kampung Bako jetty, then by boat to Bako National Park headquarters. Guided rainforest trek through mangrove and sea-stack coastline in search of the proboscis monkey and other wildlife, with free time at Telok Assam beach before the return boat and road transfer to the hotel.",
+        "Day 3 Kuching → Semenggoh → Annah Rais → Kuching(B/L/D): 3★ Kuching – Hotel Accommodation (Orangutan & Bidayuh Culture Day) Morning feeding session at Semenggoh Wildlife Centre's semi-wild orangutan sanctuary, then onward to Annah Rais Longhouse for a guided walk through the Bidayuh community, a traditional lunch, and an optional dip in the natural hot spring before returning to the hotel.",
+        "Day 4 Kuching → Kuala Lumpur: Tour Ends Check out from the hotel and enjoy free time for last-minute shopping along Main Bazaar. Transfer to Kuching International Airport for the flight back to Kuala Lumpur. Tour ends with wonderful memories of Sarawak's rainforest, wildlife and Bidayuh culture.",
+        "----------------------------------------------------"
+      ],
+      "inc": [
+        "Hotel",
+        "Transfers",
+        "Guide",
+        "Meals"
+      ],
+      "exc": [
+        "Flights",
+        "Insurance"
+      ],
+      "deps": [
+        {
+          "date": "2026-10-10",
+          "st": "low",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "t71ryb7",
+      "name": "XINJIANG GOLDEN AUTUMN-9D7N",
+      "dir": "outbound",
+      "dest": "Kashgar • Yarkand • Taxkorgan • Karakul Lake • Golden Poplar Forest",
+      "days": "9D7N",
+      "price": 8599,
+      "promo": 7299,
+      "promoUntil": "2027-01-31",
+      "material": "",
+      "image": "https://i.postimg.cc/2SKz1x2C/Chat-GPT-Image-Sep-23-2026-01-18-36-PM.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Hong Kong (MOB): On Board.                                                                     Fly from Kuala Lumpur to Hong Kong. Overnight on board.",
+        "Day 2 Hong Kong → Urumqi → Korla (_/L/D): 4★ Korla Licheng Marriott Hotel or Similar                                                                                                                                                       Arrive in Urumqi and meet the tour guide. Travel to Korla via the Tianshan Victory Tunnel.",
+        "Day 3 Korla → Tires → Kuqa (B/L/D): 4★ Kuqa Yicheng Hotel or similar                                         Tarim Basin Populus Euphratica Forest, including scenic shuttle bus and mini-train; Kucha Royal Palace.",
+        "Day 4 Kuqa → Tianshan Mysterious Grand Canyon → Bachu (B/L/D): 4★ Bachu Jinjiang International Hotel or similar                                                                                                                         Tianshan Mysterious Grand Canyon; Dolan Tribe, including eco-friendly vehicle.",
+        "Day 5 Bachu → Red Sea → Kashgar (B/L/D): 4★ Kashgar Meihou Lizhi Hotel or similar                                                                                                                                                            Red Sea Scenic Area; Kashgar Old City; Id Kah Mosque.",
+        "Day 6 Kashgar → Turpan by Soft Sleeper Train (B/L/D): Overnight on train; Bulunkou White Sand Lake; Karakul Lake; view of Muztagh Ata. Continue to Turpan by soft sleeper train.",
+        "Day 7 Turpan → Urumqi (B/L/D): 4★ Holiday Inn Express Urumqi / Weston Hotel or similar                                                                                                                                                                              Tianshan Snow Lotus Pavilion; Flaming Mountains; Karez Well; Turpan Uyghur Family Visit; Urumqi International Grand Bazaar with costume photography.",
+        "Day 8 Urumqi (B/L/D): 4★ Holiday Inn Express Urumqi / Weston Hotel or similar       Xinjiang Production and Construction Corps Cultural Exhibition Hall; Tianchi Scenic Area; Hongguang Mountain + Central Asia Regis Square Window; Golden Buddha; Hotan Second Street.",
+        "Day 9 Urumqi → Hong Kong → Kuala Lumpur (B/MOB): Tour Ends                                                   Transfer to Urumqi Airport according to flight schedule and fly back to Kuala   Lumpur via Hong Kong.",
+        "----------------------------------------------------"
+      ],
+      "inc": [
+        "Return Flight",
+        "6 nights hotel accommodation",
+        "1 night soft-sleeper train",
+        "Daily meals as stated in itinerary",
+        "English-speaking tour guide",
+        "Transportation"
+      ],
+      "exc": [
+        "Personal expenses",
+        "Single room supplement",
+        "Any meals or services not specifically mentioned under Inclusions",
+        "Additional charges for shopping-free arrangement, if applicable",
+        "Travel insurance",
+        "Any other expenses not mentioned under Inclusions"
+      ],
+      "deps": [
+        {
+          "date": "2027-03-19",
+          "st": "open",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ttp6frg",
+      "name": "CLASSIC HATYAI-4D2N",
+      "dir": "outbound",
+      "dest": "Hatyai • Songkhla",
+      "days": "4D2N",
+      "price": 429,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "https://i.postimg.cc/0N1Rb4xt/Chat-GPT-Image-Sep-23-2026-07-57-31-PM.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Hatyai: Overnight Journey By Bus",
+        "Gather at KL sentral. Overnight in Bus journey to Hatyai by Bukit Kayu Hitam",
+        "Day 2 Wang Kelian Border → Hatyai: 3★ Hatyai – Hotel Accommodation (Arrival & Sightseeing Day)                                                                                                                                 Proceed through Malaysia and Thailand immigration at Wang Kelian Border; continue to Hatyai for Bee Farm, local nuts/snacks shop and Nora Plaza. Check in at the hotel and enjoy free time. In the evening, explore Lee Garden area for shopping and dinner at own expense.",
+        "Day 3 Hatyai → Songkhla: 3★ Hatyai – Hotel Accommodation (Sightseeing & Leisure Day) - Visit an elephant attraction; continue to Samila Beach, Songkhla Mosque and Floating Market. Enjoy free time in the evening, with an optional visit to ASEAN Night Market by tuk-tuk at own expense.",
+        "Day 4 Hatyai → Danok → Kuala Lumpur: Tour Ends                                                                       Check out from the hotel and depart Hatyai for the border. Stop for shopping in Danok before completing immigration procedures and continuing the journey back to Malaysia. Tour ends with wonderful memories of Hatyai & Songkhla.",
+        "------------------------------------------------"
+      ],
+      "inc": [
+        "Transport",
+        "Accomandation",
+        "Tour Guide",
+        "Tour Leader",
+        "Insurans In Thailand"
+      ],
+      "exc": [
+        "Meal",
+        "Personal Expenses"
+      ],
+      "deps": [
+        {
+          "date": "2026-10-02",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-09",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-16",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-23",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-24",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-30",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-06",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-20",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-10",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-24",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-31",
+          "st": "open",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "tmeastr",
+      "name": "CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N",
+      "tourCode": "HTYP4D2N",
+      "dir": "outbound",
+      "dest": "Hatyai • Songkhla",
+      "days": "4D2N",
+      "price": 705,
+      "promo": 699,
+      "promoUntil": "2026-12-31",
+      "material": "",
+      "image": "https://i.postimg.cc/nhb9s2PY/Chat-GPT-Image-Sep-24-2026-05-35-51-PM.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Hatyai: Overnight Journey by Private Van                                                        Private door-to-door pick-up in Kuala Lumpur. Overnight drive to Hatyai via Bukit Kayu Hitam Border.",
+        "Day 2 Bukit Kayu Hitam Border → Hatyai: 3★ Hatyai – Hotel Accommodation (Arrival & Sightseeing Day)                                                                                                                         Proceed through Malaysia and Thailand immigration at Bukit Kayu Hitam Border; continue to Hatyai for Bee Farm, local nuts/snacks shop and Nora Plaza. Check in at the hotel and enjoy free time. In the evening, explore Lee Garden area for shopping and dinner at your own expense.",
+        "Day 3 Hatyai → Songkhla: 3★ Hatyai – Hotel Accommodation (Sightseeing & Leisure Day)                                                                                                                                                        Visit an elephant attraction; continue to Samila Beach, Songkhla Mosque and Floating Market. Enjoy free time in the evening, with an optional visit to ASEAN Night Market by tuk-tuk at your own expense.",
+        "Day 4 Hatyai → Danok → Kuala Lumpur: Tour Ends                                                                         Check out from the hotel and depart Hatyai for the border. Stop for shopping in Danok before completing immigration procedures and continuing the private van journey back to Kuala Lumpur, with door-to-door drop-off. Tour ends with wonderful memories of Hatyai & Songkhla.",
+        "*This itinerary is for reference only. It may change according to the client's request, subject to the local area and the driver's working hours."
+      ],
+      "inc": [
+        "Transport",
+        "Accomandation",
+        "Tour Guide",
+        "Insurance in Thailand"
+      ],
+      "exc": [
+        "Meal",
+        "Personal Expenses"
+      ],
+      "deps": [
+        {
+          "date": "2026-10-02",
+          "st": "full",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "t4fcllm",
+      "name": "SHANGHAI-5D4N (MUSLIM FRIENDLY)",
+      "dir": "outbound",
+      "dest": "Suzhou • Hangzhou",
+      "days": "5D4N",
+      "price": 3480,
+      "promo": 3380,
+      "promoUntil": "2026-12-31",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Shanghai → Suzhou (MOB/_/D): Suzhou – Hotel Accommodation (Arrival Day)                                                                                                                                             Gather at KLIA for check-in and flight to Shanghai, then transfer to Suzhou. Visit Jinji Lake, an open park in Suzhou with attractions such as Li's Causeway; take photos at the Oriental Gateway and Bird's Nest; and stroll and shop along Qili Shantang Street. Dinner and overnight in Suzhou. (Meals: Inflight Meal, Dinner)",
+        "Day 2 Suzhou → Hangzhou(B/L/D): Hangzhou – Hotel Accommodation (Heritage & Shopping Day)                                                                                                                                      Breakfast and check out from the hotel. Visit the World Cultural Heritage site and Couple's Retreat Garden, then shop at the Silk Factory, known for pillowcases, bedding, clothing and more. Continue to Hangzhou to visit the G20 City Balcony and shop at Sasseur Outlets for the latest clothing and handbag fashions. Overnight in Hangzhou.",
+        "Day 3 Hangzhou → Shanghai(B/L/D): Shanghai – Hotel Accommodation (City Sightseeing Day)                                                                                                                                  Breakfast and check out from the hotel. Take a boat ride on West Lake and visit the Longjing Green Tea plantation, then depart for Shanghai with a prayer stop at Pudong Mosque. Take photos at Tian An 1000 Trees, then visit The Bund for photos against the Oriental Pearl Tower and Shanghai Tower. Stroll and shop along Nanjing Pedestrian Street.",
+        "Day 4 Shanghai City Tour(B/L/D): Shanghai – Hotel Accommodation (Leisure & Culture Day)                                                                                                                                                      Breakfast at the hotel. Visit the City God Temple Business Circle and Mid Lake Pavilion, then Tongrentang and the Luckin Coffee Garden Villa theme site. Continue to the mosque for prayers, then shop at AP Plaza before returning to the hotel. Overnight in Shanghai.",
+        "Day 5 Shanghai → Kuala Lumpur(B/L/MOB): Tour Ends                                                                               Breakfast and check out from the hotel. Shopping at the Florence Town Village outlet, then transfer to Shanghai Airport for the flight back to Kuala Lumpur. Tour ends with wonderful memories of Suzhou, Hangzhou and Shanghai."
+      ],
+      "inc": [
+        "Return economy-class air ticket",
+        "Fuel surcharge and airport tax",
+        "30kg return baggage allowance",
+        "Inflight meals on the outbound and return flights",
+        "4 nights hotel accommodation, 3-star rated",
+        "Breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per the itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to the attractions listed in the itinerary",
+        "Experienced tour leader",
+        "Group travel insurance",
+        "Tips for the tour guide and coach driver"
+      ],
+      "exc": [
+        "Additional travel insurance coverage",
+        "Insurance coverage for participants aged 65 and above",
+        "Surcharge on the quoted price during peak season, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks and minibar, and porter service, unless stated in the itinerary",
+        "Additional charges for excess baggage",
+        "Any other items not stated above"
+      ],
+      "deps": [
+        {
+          "date": "2026-11-18",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-03",
+          "st": "open",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}
