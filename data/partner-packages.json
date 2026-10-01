@@ -8,7 +8,7 @@
   "trips": [
     {
       "id": "t1",
-      "name": "YUNNAN-9D7N",
+      "name": "YUNNAN-9D7N(MUSLIM FRIENDLY)",
       "dir": "outbound",
       "dest": "Kunming • Chuxiong • Dali • Lijiang",
       "days": "9D7N",
@@ -18,7 +18,8 @@
       "material": "",
       "image": "https://i.postimg.cc/qv7YCV5g/Chat-GPT-Image-Sep-23-2026-01-07-27-PM.png",
       "commission": 300,
-      "active": true
+      "active": true,
+      "tourCode": "YNNN9D7N"
     },
     {
       "id": "t2",
@@ -32,7 +33,8 @@
       "material": "",
       "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
       "commission": 100,
-      "active": true
+      "active": true,
+      "tourCode": "SRWK4D3N"
     },
     {
       "id": "t71ryb7",
@@ -46,7 +48,8 @@
       "material": "",
       "image": "https://i.postimg.cc/2SKz1x2C/Chat-GPT-Image-Sep-23-2026-01-18-36-PM.png",
       "commission": 300,
-      "active": true
+      "active": true,
+      "tourCode": "XNJN9D7N"
     },
     {
       "id": "ttp6frg",
@@ -60,12 +63,12 @@
       "material": "",
       "image": "https://i.postimg.cc/0N1Rb4xt/Chat-GPT-Image-Sep-23-2026-07-57-31-PM.png",
       "commission": 0,
-      "active": true
+      "active": true,
+      "tourCode": "HTY4D2N"
     },
     {
       "id": "tmeastr",
       "name": "CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N",
-      "tourCode": "HTYP4D2N",
       "dir": "outbound",
       "dest": "Hatyai • Songkhla",
       "days": "4D2N",
@@ -75,7 +78,8 @@
       "material": "",
       "image": "https://i.postimg.cc/nhb9s2PY/Chat-GPT-Image-Sep-24-2026-05-35-51-PM.png",
       "commission": 0,
-      "active": true
+      "active": true,
+      "tourCode": "HTYP4D2N"
     },
     {
       "id": "t4fcllm",
@@ -87,9 +91,10 @@
       "promo": 3380,
       "promoUntil": "2026-12-31",
       "material": "",
-      "image": "",
+      "image": "https://i.postimg.cc/gJ9S3rhy/Chat-GPT-Image-Sep-30-2026-09-49-42-PM.png",
       "commission": 0,
-      "active": true
+      "active": true,
+      "tourCode": "SHNG5D4N"
     }
   ]
 }

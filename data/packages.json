@@ -3,13 +3,13 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "whatsapp": "60108800854",
     "email": "",
-    "asOf": "2026-10-01",
+    "asOf": "2026-10-02",
     "editPin": ""
   },
   "trips": [
     {
       "id": "t1",
-      "name": "YUNNAN-9D7N",
+      "name": "YUNNAN-9D7N(MUSLIM FRIENDLY)",
       "dir": "outbound",
       "dest": "Kunming • Chuxiong • Dali • Lijiang",
       "days": "9D7N",
@@ -66,7 +66,8 @@
           "st": "open",
           "note": ""
         }
-      ]
+      ],
+      "tourCode": "YNNN9D7N"
     },
     {
       "id": "t2",
@@ -99,10 +100,11 @@
       "deps": [
         {
           "date": "2026-10-10",
-          "st": "low",
+          "st": "open",
           "note": ""
         }
-      ]
+      ],
+      "tourCode": "SRWK4D3N"
     },
     {
       "id": "t71ryb7",
@@ -149,7 +151,8 @@
           "st": "open",
           "note": ""
         }
-      ]
+      ],
+      "tourCode": "XNJN9D7N"
     },
     {
       "id": "ttp6frg",
@@ -203,11 +206,6 @@
           "note": ""
         },
         {
-          "date": "2026-10-24",
-          "st": "open",
-          "note": ""
-        },
-        {
           "date": "2026-10-30",
           "st": "open",
           "note": ""
@@ -238,6 +236,11 @@
           "note": ""
         },
         {
+          "date": "2026-10-24",
+          "st": "open",
+          "note": ""
+        },
+        {
           "date": "2026-12-24",
           "st": "open",
           "note": ""
@@ -247,12 +250,12 @@
           "st": "open",
           "note": ""
         }
-      ]
+      ],
+      "tourCode": "HTY4D2N"
     },
     {
       "id": "tmeastr",
       "name": "CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N",
-      "tourCode": "HTYP4D2N",
       "dir": "outbound",
       "dest": "Hatyai • Songkhla",
       "days": "4D2N",
@@ -284,7 +287,8 @@
           "st": "full",
           "note": ""
         }
-      ]
+      ],
+      "tourCode": "HTYP4D2N"
     },
     {
       "id": "t4fcllm",
@@ -296,7 +300,7 @@
       "promo": 3380,
       "promoUntil": "2026-12-31",
       "material": "",
-      "image": "",
+      "image": "https://i.postimg.cc/gJ9S3rhy/Chat-GPT-Image-Sep-30-2026-09-49-42-PM.png",
       "itin": [
         "Day 1 Kuala Lumpur → Shanghai → Suzhou (MOB/_/D): Suzhou – Hotel Accommodation (Arrival Day)                                                                                                                                             Gather at KLIA for check-in and flight to Shanghai, then transfer to Suzhou. Visit Jinji Lake, an open park in Suzhou with attractions such as Li's Causeway; take photos at the Oriental Gateway and Bird's Nest; and stroll and shop along Qili Shantang Street. Dinner and overnight in Suzhou. (Meals: Inflight Meal, Dinner)",
         "Day 2 Suzhou → Hangzhou(B/L/D): Hangzhou – Hotel Accommodation (Heritage & Shopping Day)                                                                                                                                      Breakfast and check out from the hotel. Visit the World Cultural Heritage site and Couple's Retreat Garden, then shop at the Silk Factory, known for pillowcases, bedding, clothing and more. Continue to Hangzhou to visit the G20 City Balcony and shop at Sasseur Outlets for the latest clothing and handbag fashions. Overnight in Hangzhou.",
@@ -338,7 +342,8 @@
           "st": "open",
           "note": ""
         }
-      ]
+      ],
+      "tourCode": "SHNG5D4N"
     }
   ]
 }
