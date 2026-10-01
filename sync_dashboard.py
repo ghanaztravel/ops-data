@@ -99,10 +99,12 @@ def build_customer_trips(trips, deps, sales):
 
 
 def build_partner_trips(trips, prev_trips):
-    prev_by_id = {p["id"]: p for p in (prev_trips or [])}
+    # Commission now lives in the dashboard itself (not encrypted, a plain
+    # per-trip field the agency owner fills in directly) so it syncs
+    # automatically just like price, promo and photo. prev_trips is no
+    # longer consulted for commission; kept as a parameter for compatibility.
     out = []
     for t in trips:
-        prev = prev_by_id.get(t["id"], {})
         o = {
             "id": t["id"],
             "name": t["name"],
@@ -114,7 +116,7 @@ def build_partner_trips(trips, prev_trips):
             "promoUntil": t.get("promoUntil") or "",
             "material": t.get("material") or "",
             "image": t.get("image") or "",
-            "commission": num(prev.get("commission")) or 0,
+            "commission": num(t.get("commission")) or 0,
             "active": t.get("active") is not False,
         }
         tc = tour_code(t)
