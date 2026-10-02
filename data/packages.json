@@ -3,7 +3,7 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "whatsapp": "60108800854",
     "email": "",
-    "asOf": "2026-10-02",
+    "asOf": "2026-10-03",
     "editPin": ""
   },
   "trips": [
@@ -185,11 +185,6 @@
       ],
       "deps": [
         {
-          "date": "2026-10-02",
-          "st": "open",
-          "note": ""
-        },
-        {
           "date": "2026-10-09",
           "st": "open",
           "note": ""
@@ -280,13 +275,7 @@
         "Meal",
         "Personal Expenses"
       ],
-      "deps": [
-        {
-          "date": "2026-10-02",
-          "st": "full",
-          "note": ""
-        }
-      ],
+      "deps": [],
       "tourCode": "HTYP4D2N"
     },
     {
