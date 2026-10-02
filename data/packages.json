@@ -344,6 +344,119 @@
         }
       ],
       "tourCode": "SHNG5D4N"
+    },
+    {
+      "id": "trsemte",
+      "name": "SHANGHAI DISNEYLAND-5D4N",
+      "dir": "outbound",
+      "dest": "Shanghai • Disneyland",
+      "days": "5D4N",
+      "price": 4180,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Shanghai (MOB/D): 3★ Shanghai – Hotel to be confirmed (Arrival day)                                                                                                                                           Gather at KLIA for flight check-in. Fly from Kuala Lumpur to Shanghai. Upon arrival at Shanghai International Airport, enjoy shopping at Nanjing Pedestrian Street; visit The Bund for photo opportunities with the Oriental Pearl Tower and Shanghai Tower in the background. Transfer to the hotel for check-in. Overnight in Shanghai.",
+        "Day 2 Shanghai Disneyland (B): 3★ Shanghai – Hotel to be confirmed (Full-day Disneyland experience)                                                                                                                   Breakfast at the hotel. Enjoy a full day at Shanghai Disneyland with exciting attractions, parades, shows and magical experiences featuring your favourite Disney characters. Regular admission ticket included. Return to the hotel. Overnight in Shanghai.",
+        "Day 3 Shanghai City Tour (B/L/D): 3★ Shanghai – Hotel to be confirmed (City sightseeing and shopping stops)                                                                                                                           Breakfast at the hotel. Explore City God Temple Business District; walk across the historic Nine-Bend Bridge; visit Xiaotaoyuan Mosque. Visit Tong Ren Tang Health Center and Jade Treasure Store. Photo stops at Starbucks Bakery Workshop and the LV Giant Ship Flagship Store. Return to the hotel. Overnight in Shanghai.",
+        "Day 4 Shanghai Free & Easy (B): 3★ Shanghai – Hotel to be confirmed (Lunch and dinner on own)                                                                                                                        Breakfast at the hotel. Free day to explore Shanghai at your own pace, enjoy shopping, try local food or relax. Overnight in Shanghai.",
+        "Day 5 Shanghai → Kuala Lumpur (B/L/MOB): (Departure day; tour ends)                                                 Breakfast at the hotel and check out. Enjoy outlet shopping at Florentia Village. Transfer to Shanghai International Airport for your return flight to Kuala Lumpur. Arrive in Kuala Lumpur.",
+        "------------------------------------------------"
+      ],
+      "inc": [
+        "Return economy-class flight tickets.",
+        "Fuel surcharges and airport taxes.",
+        "30kg checked baggage allowance each way.",
+        "In-flight meals on outbound and return flights.",
+        "Four nights’ accommodation at a 3★ hotel.",
+        "Daily breakfast at the hotel.",
+        "Halal / Muslim-friendly meals as stated in the itinerary.",
+        "Air-conditioned coach transportation with driver.",
+        "Professional English-speaking tour guide.",
+        "Entrance fees to attractions as stated in the itinerary.",
+        "Experienced tour leader.",
+        "Group travel insurance.",
+        "Tips for the tour guide and coach driver.",
+        "Regular admission ticket to Shanghai Disneyland."
+      ],
+      "exc": [
+        "Additional insurance coverage.",
+        "Insurance coverage for participants aged 65 and above.",
+        "Peak season, festive season and public holiday surcharges.",
+        "Additional hotel services, including laundry, snacks, minibar and porter services, unless stated in the itinerary.",
+        "Excess baggage charges.",
+        "Meals, beverages and additional attraction tickets not stated in the itinerary.",
+        "Any other items not stated under package inclusions."
+      ],
+      "deps": [
+        {
+          "date": "2026-12-30",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-01-19",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-02",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-01",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-24",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-15",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-29",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-05",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "SHNGD5D4N"
     }
   ]
 }

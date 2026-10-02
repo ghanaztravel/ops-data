@@ -95,6 +95,21 @@
       "commission": 100,
       "active": true,
       "tourCode": "SHNG5D4N"
+    },
+    {
+      "id": "trsemte",
+      "name": "SHANGHAI DISNEYLAND-5D4N",
+      "dir": "outbound",
+      "dest": "Shanghai • Disneyland",
+      "days": "5D4N",
+      "price": 4180,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 100,
+      "active": true,
+      "tourCode": "SHNGD5D4N"
     }
   ]
 }
