@@ -110,6 +110,21 @@
       "commission": 100,
       "active": true,
       "tourCode": "SHNGD5D4N"
+    },
+    {
+      "id": "t9voxa6",
+      "name": "DANANG, BANA HILLS & HOI AN-4D3N",
+      "dir": "outbound",
+      "dest": "Da Nang • Bana Hills",
+      "days": "4D3N",
+      "price": 2280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "DNNG4D3N"
     }
   ]
 }

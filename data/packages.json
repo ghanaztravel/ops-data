@@ -457,6 +457,51 @@
         }
       ],
       "tourCode": "SHNGD5D4N"
+    },
+    {
+      "id": "t9voxa6",
+      "name": "DANANG, BANA HILLS & HOI AN-4D3N",
+      "dir": "outbound",
+      "dest": "Da Nang • Bana Hills",
+      "days": "4D3N",
+      "price": 2280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Da Nang (MOB/L/D): Da Nang Hotel (Arrival & Da Nang City Tour) Gather at KLIA for check-in and fly from Kuala Lumpur to Da Nang. Upon arrival, lunch and prayer; hotel check-in; Bien Dong Park; My Khe Beach; Love Lock Bridge; Dragon Bridge; Night Market. Dinner and return to hotel.",
+        "Day 2 Son Tra Mountain → Coconut Forest → Hoi An Ancient Town (B/L/D): Da Nang Hotel (Culture & Heritage Tour) Breakfast at hotel. Fishing Village; Son Tra Mountain (Monkey Mountain); Bamboo Charcoal shopping; Han Market; Coconut Forest; Hoi An Ancient Town; Japanese Covered Bridge; Ancient Embassy Hall; Phuc Kien Pagoda. Dinner at local restaurant; return to Da Nang and overnight at hotel.",
+        "Day 3 Da Nang → Ba Na Hills → Shopping (B/L/D): Da Nang Hotel (Full-Day Ba Na Hills Tour) Breakfast at hotel. Ba Na Hills; Le Jardin D’Amour; Da Nang French Village; halal buffet lunch at Ba Na Hills; Fantasy Park. Dinner at halal restaurant; shopping at Night Market; return to hotel and overnight in Da Nang.",
+        "Day 4 Da Nang → Kuala Lumpur (B/MOB): (Departure transfer according to flight schedule) Breakfast and check out from hotel. Transfer to Da Nang International Airport and board the flight from Da Nang to Kuala Lumpur. Tour ends.",
+        "--------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "3 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group Takaful insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated",
+        "Meals, beverages and additional entrance fees other than those stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [],
+      "tourCode": "DNNG4D3N"
     }
   ]
 }
