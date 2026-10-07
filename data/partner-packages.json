@@ -112,21 +112,6 @@
       "tourCode": "SHNGD5D4N"
     },
     {
-      "id": "t9voxa6",
-      "name": "DANANG, BANA HILLS & HOI AN-4D3N",
-      "dir": "outbound",
-      "dest": "Da Nang • Bana Hills",
-      "days": "4D3N",
-      "price": 2280,
-      "promo": 0,
-      "promoUntil": "",
-      "material": "",
-      "image": "",
-      "commission": 100,
-      "active": true,
-      "tourCode": "DNNG4D3N"
-    },
-    {
       "id": "tifgr6d",
       "name": "JAKARTA CITY TOUR PRIVATE (MIN 5PAX)-4D3N",
       "dir": "outbound",
