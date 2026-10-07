@@ -128,7 +128,7 @@
     },
     {
       "id": "tockhog",
-      "name": "TAIWAN & ALISHAN: JELAJAH ALAM DAN BUDAYA TAIWAN-5H4M",
+      "name": "TAIWAN & ALISHAN-5D4N",
       "dir": "outbound",
       "dest": "Taiwan • Alishan",
       "days": "5D4N",
@@ -185,6 +185,51 @@
       "commission": 0,
       "active": true,
       "tourCode": "DNNG4D3N"
+    },
+    {
+      "id": "ty89gki",
+      "name": "DALAT, MUINE & HO CHI MINH-5D4N",
+      "dir": "outbound",
+      "dest": "Dalat • Muine • Ho Chi Minh",
+      "days": "5D4N",
+      "price": 2180,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "DMH5D4N"
+    },
+    {
+      "id": "tw59et7",
+      "name": "BANGKOK KANCHANABURI-4D3N",
+      "dir": "outbound",
+      "dest": "Bangkok • Kanchanaburi",
+      "days": "4D3N",
+      "price": 2280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "BGKKNCB4D3N"
+    },
+    {
+      "id": "t54yabq",
+      "name": "BANGKOK KANCHANABURI-5D4N",
+      "dir": "outbound",
+      "dest": "Bangkok • Kanchanaburi",
+      "days": "5D4N",
+      "price": 3080,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "BGKKNCB5D4N"
     }
   ]
 }

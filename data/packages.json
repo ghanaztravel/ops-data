@@ -448,7 +448,7 @@
     },
     {
       "id": "tockhog",
-      "name": "TAIWAN & ALISHAN: JELAJAH ALAM DAN BUDAYA TAIWAN-5H4M",
+      "name": "TAIWAN & ALISHAN-5D4N",
       "dir": "outbound",
       "dest": "Taiwan • Alishan",
       "days": "5D4N",
@@ -672,6 +672,198 @@
         }
       ],
       "tourCode": "DNNG4D3N"
+    },
+    {
+      "id": "ty89gki",
+      "name": "DALAT, MUINE & HO CHI MINH-5D4N",
+      "dir": "outbound",
+      "dest": "Dalat • Muine • Ho Chi Minh",
+      "days": "5D4N",
+      "price": 2180,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Ho Chi Minh → Dalat (MOB/L/D): Dalat Hotel (Arrival & Transfer to Dalat) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Saigon, Ho Chi Minh. Lunch at a halal restaurant; prayer at the main mosque in Ho Chi Minh City; continue the approximately 6-hour journey by coach to Dalat. Upon arrival, dinner at a halal restaurant; check in and overnight in Dalat.",
+        "Day 2 Dalat Tour (B/L/D): Dalat Hotel (Nature, Attractions & Shopping) Breakfast at a halal restaurant. Clay Tunnel or Mongo Land; Me Linh Coffee with views of the coffee plantation and mountains (coffee included); flower and fruit farm; Datanla Waterfall and Alpine Coaster experience; Crazy House; shopping at wholesale shops for fabrics, telekung, jubah, hijabs and other items. Dinner at a halal restaurant; shopping at Dalat Night Market; overnight in Dalat.",
+        "Day 3 Dalat → Mui Ne → Ho Chi Minh (B/L/D): Ho Chi Minh Hotel (Mui Ne Adventure & City Transfer) Check out from hotel and depart for Mui Ne; packed breakfast at a coffee shop. White Sand Dunes with Jeep experience; Fishing Village; lunch at a halal restaurant; prayer stop at Nourul Ehsaan Mosque. Continue the journey to Ho Chi Minh City; check in at hotel; dinner at a halal restaurant; free time for shopping at Malaysian Street. Overnight in Ho Chi Minh City.",
+        "Day 4 Ho Chi Minh Free & Easy: Ho Chi Minh Hotel (Free & Easy Day) Free time to explore and shop at Ben Thanh Market, Malaysian Street or other areas around Ho Chi Minh City at your own leisure. Overnight in Ho Chi Minh City.",
+        "Day 5 Ho Chi Minh → Kuala Lumpur (L/MOB): (Shopping & Departure Transfer) Check out from hotel; shopping at Ben Thanh Market for local products and souvenirs; packed lunch. Transfer to Saigon Airport and board the flight from Ho Chi Minh City to Kuala Lumpur. Tour ends.",
+        "------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2026-11-09",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-28",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-29",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-04",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "DMH5D4N"
+    },
+    {
+      "id": "tw59et7",
+      "name": "BANGKOK KANCHANABURI-4D3N",
+      "dir": "outbound",
+      "dest": "Bangkok • Kanchanaburi",
+      "days": "4D3N",
+      "price": 2280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Bangkok (MOB/L/D): Bangkok Hotel (Arrival & Bangkok Night Tour) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Bangkok. Upon arrival, lunch; visit Bee Farm; explore Bangkok Night Market. Dinner and overnight in Bangkok.",
+        "Day 2 Bangkok → Samut Songkhram → Kanchanaburi (B/L/D): Kanchanaburi Hotel (Floating Market & Kanchanaburi Highlights) Breakfast and check out from hotel. Travel to Samut Songkhram; Maeklong Railway Market; boat ride at Damnoen Saduak Floating Market; continue to Kanchanaburi; stop at Meena Cafe; Kanchanaburi Skywalk; photo stop at River Kwai Bridge; shopping at JJ Market Kanchanaburi. Check in and overnight in Kanchanaburi.",
+        "Day 3 Kanchanaburi → Bangkok (B/L/D): Bangkok Hotel (Safari & Shopping Tour) Breakfast and check out from hotel. Visit Kanchanaburi Safari Park (Safari Bus included); return to Bangkok; shopping at Gems Gallery, Platinum Mall, Dried Food Market and Tofu Mall. Return to hotel and overnight in Bangkok.",
+        "Day 4 Bangkok → Kuala Lumpur (B/L/MOB): (Shopping & Departure Transfer) Check out from hotel. Visit Erawadee Herb; shopping at Siam Premium Outlets Bangkok; transfer to Bangkok Airport and board the flight to Kuala Lumpur. Arrive in Kuala Lumpur. Tour ends.",
+        "------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "3 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-01-15",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-30",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-07",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-16",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-12",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "BGKKNCB4D3N"
+    },
+    {
+      "id": "t54yabq",
+      "name": "BANGKOK KANCHANABURI-5D4N",
+      "dir": "outbound",
+      "dest": "Bangkok • Kanchanaburi",
+      "days": "5D4N",
+      "price": 3080,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Bangkok (MOB/L/D): Bangkok Hotel (Arrival & Bangkok Night Tour) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Bangkok. Upon arrival, lunch; visit Bee Farm; explore Bangkok Night Market. Dinner and overnight in Bangkok.",
+        "Day 2 Bangkok → Samut Songkhram → Kanchanaburi (B/L/D): Kanchanaburi Hotel (Markets & Floating Market Experience) Breakfast and check out from hotel. Shopping at Dried Food Market; travel to Samut Songkhram; Maeklong Railway Market; boat ride at Damnoen Saduak Floating Market; continue to Kanchanaburi; stop at Meena Cafe; shopping and sightseeing at JJ Market Kanchanaburi. Dinner and overnight in Kanchanaburi.",
+        "Day 3 Kanchanaburi (B/L/D): Kanchanaburi Hotel (Heritage, Railway & City Highlights) Breakfast at hotel. Mallika R.E. 124 Heritage Town with the opportunity to try traditional Thai costumes; experience a classic train ride along the Death Railway; Kanchanaburi Skywalk; photo stop at River Kwai Bridge. Return to hotel and overnight in Kanchanaburi.",
+        "Day 4 Kanchanaburi → Bangkok (B/L/D): Bangkok Hotel (Safari & Shopping Tour) Breakfast and check out from hotel. Visit Kanchanaburi Safari Park (Safari Bus included); return to Bangkok; shopping at Gems Gallery, Platinum Mall and Tofu Market. Return to hotel and overnight in Bangkok.",
+        "Day 5 Bangkok → Kuala Lumpur (B/L/MOB): (Shopping & Departure Transfer) Check out from hotel. Visit Erawadee Herb; shopping at Siam Premium Outlets Bangkok; transfer to Bangkok Airport and board the flight to Kuala Lumpur. Arrive in Kuala Lumpur. Tour ends.",
+        "------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2026-12-27",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "BGKKNCB5D4N"
     }
   ]
 }
