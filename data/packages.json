@@ -445,6 +445,233 @@
         }
       ],
       "tourCode": "SHNGD5D4N"
+    },
+    {
+      "id": "tockhog",
+      "name": "TAIWAN & ALISHAN: JELAJAH ALAM DAN BUDAYA TAIWAN-5H4M",
+      "dir": "outbound",
+      "dest": "Taiwan • Alishan",
+      "days": "5D4N",
+      "price": 3480,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Taoyuan → Chiayi (MOB/D): Chiayi Hotel (Arrival Day) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Taipei. Upon arrival, dinner at a Halal restaurant; transfer to Chiayi and check in at the hotel.",
+        "Day 2 Chiayi → Alishan National Scenic Area (B/L/D): Chiayi Hotel (Alishan Nature & Cultural Experience) Breakfast at hotel. Alishan National Scenic Area; explore Alishan Forest; experience the Alishan Train; Tea Farm; Hinoki Village; Wenhua Night Market. Return to hotel and overnight in Chiayi.",
+        "Day 3 Chiayi → Taichung → Taoyuan (B/L/D): Taoyuan Hotel (Sightseeing & Cultural Experience) Breakfast and check out from hotel. Travel from Chiayi towards Taoyuan; Taichung Opera House; Chung She Flower Garden (February–April only); traditional Pineapple Cake making experience; CKS Memorial Hall; pass by the Presidential Palace. Check in and overnight in Taoyuan.",
+        "Day 4 Taoyuan → Taipei → Taoyuan (B/L/D): Taoyuan Hotel (Yehliu, Shifen & Taipei City Tour) Breakfast at hotel. Yehliu Geopark; Shifen Old Street; Sky Lantern experience; photo stop at Taipei 101; sightseeing and shopping at Ximending. Return to hotel and overnight in Taoyuan.",
+        "Day 5 Taipei → Kuala Lumpur (B/MOB): (Departure transfer according to flight schedule) Breakfast and check out from hotel. Free time until transfer to the airport; board the flight from Taipei to Kuala Lumpur. Tour ends.",
+        "----------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-03-17",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "TWNALSHN5D4N"
+    },
+    {
+      "id": "tgxvd7p",
+      "name": "TAIWAN + TAIPEI 101-5D4N",
+      "dir": "outbound",
+      "dest": "Taiwan • Taipei 101",
+      "days": "5D4N",
+      "price": 3480,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Taipei (MOB/D): Taipei Hotel (Arrival & Ximending) Gather at KLIA and board the flight from Kuala Lumpur to Taipei. Upon arrival, visit Taipei Grand Mosque for prayer; shopping and free time at Ximending Street. Check in and overnight in Taipei.",
+        "Day 2 Taipei City Tour (B/L/D): Taipei Hotel (Nature & City Sightseeing) Breakfast at hotel. Yangmingshan; Beitou Hot Spring Park; Shilin Official Residence; Dadaocheng Old Street (May–January only). Visit Tamsui Tian Yuan Gong to enjoy the cherry blossoms (February–April only). Return to hotel and overnight in Taipei.",
+        "Day 3 Taipei City Tour (B/L/D): Taipei Hotel (Yehliu, Shifen & Taipei Highlights) Breakfast at hotel. Yehliu Geopark; Shifen and Sky Lantern experience; lunch at a local restaurant; Chiang Kai-Shek Memorial Hall (CKS Memorial); photo stop at Taipei 101 (Observatory entrance not included). Return to hotel and overnight in Taipei.",
+        "Day 4 Taipei → Yilan → Taipei (B/L/D): Taipei Hotel (Yilan Nature & Hot Spring Experience) Breakfast at hotel. Plum Lake; Luodong Forestry Park; lunch and taste Yilan’s famous Green Onion Cake; enjoy the IY Hot Spring Foot Spa experience. Return to hotel and overnight in Taipei.",
+        "Day 5 Taipei → Kuala Lumpur (B/MOB): (Departure transfer according to flight schedule) Breakfast and check out from hotel. Transfer to Taipei Airport and board the flight from Taipei to Kuala Lumpur. Tour ends.",
+        "--------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-01-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-03-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-01",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "TWNTP1015H4N"
+    },
+    {
+      "id": "t23pna0",
+      "name": "JELAJAH SEOUL KOREA MH38/MH39-6D4N",
+      "dir": "outbound",
+      "dest": "Seoul • Incheon • Nami Island",
+      "days": "6D4N",
+      "price": 3580,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Incheon (MOB): Incheon Hotel (Arrival Day) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Seoul (Incheon). Upon arrival at Incheon International Airport, transfer to the hotel and overnight in Incheon.",
+        "Day 2 Incheon → Nami Island → Garden of Morning Calm → Seoul (B/L/D): Seoul Hotel (Nami Island & Seasonal Experience) Breakfast at hotel. Travel to Chuncheon; take a ferry to Nami Island, famous as a filming location for Winter Sonata; visit Garden of Morning Calm (March–November). During winter (December–February), enjoy a snow experience at the Ski Resort. Dinner and overnight in Seoul. Winter Ski Activity: Ski equipment and ski wear are not included (USD 50 per person).",
+        "Day 3 Seoul City Tour (B/L/D): Seoul Hotel (Palace, Shopping & Seoul Highlights) Breakfast at hotel. Cosmetic Outlet; Gyeongbokgung Palace, a historic royal palace from the Joseon Dynasty; free time for shopping at Myeongdong Shopping Street and Namdaemun Shopping Street; visit N Seoul Tower by EV bus (Observatory entrance not included). Dinner, check in and overnight in Seoul. Optional: Hanbok rental at Gyeongbokgung Palace (approximately KRW 20,000 per person).",
+        "Day 4 Seoul Free & Easy (B): Seoul Hotel (Free & Easy Day) Breakfast at hotel. Free time to explore Seoul at your own leisure and overnight in Seoul. Optional Tour: From USD 130 per person (minimum 15 persons), including lunch, dinner, tour guide, tipping and Everland Theme Park entrance ticket. Hongdae Shopping Street.",
+        "Day 5 Seoul City Tour → Shopping → Incheon Airport (B/L/D): (Seoul City & Shopping Tour) Breakfast at hotel. Red Pine Gallery; visit Itaewon Mosque for prayer and explore Itaewon Shopping Street; Starfield Library at COEX Mall, featuring impressive 13-metre-high bookshelves. Dinner and transfer to Incheon International Airport.",
+        "Day 6 Incheon → Kuala Lumpur (MOB): (Departure Day) Board the flight from Incheon to Kuala Lumpur. Arrive in Kuala Lumpur. Tour ends.",
+        "--------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "K-ETA application (for eligible nationalities & first-time applications only)",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package",
+        "Second and subsequent K-ETA applications (limited to 3 applications only)"
+      ],
+      "deps": [
+        {
+          "date": "2027-01-06",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "SELKR6D4N"
+    },
+    {
+      "id": "tg916v6",
+      "name": "DANANG, BANA HILLS & HOI AN-4D3N",
+      "dir": "outbound",
+      "dest": "Da Nang • Bana Hills",
+      "days": "4D3N",
+      "price": 2680,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Da Nang (MOB/L/D): Da Nang Hotel (Arrival & Da Nang City Tour) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Da Nang. Upon arrival, lunch and prayer; check in at the hotel; Bien Dong Park; My Khe Beach; Love Lock Bridge; Dragon Bridge; shopping at Night Market. Dinner and return to hotel.",
+        "Day 2 Son Tra Mountain → Coconut Forest → Hoi An Ancient Town (B/L/D): Da Nang Hotel (Culture & Heritage Tour) Breakfast at hotel. Fishing Village; Son Tra Mountain (Monkey Mountain); Bamboo Charcoal shopping; Han Market; Coconut Forest; Hoi An Ancient Town; Japanese Covered Bridge; Ancient Embassy Hall; Phuc Kien Pagoda. Dinner at local restaurant; return to hotel and overnight in Da Nang.",
+        "Day 3 Da Nang → Ba Na Hills → Shopping (B/L/D): Da Nang Hotel (Full-Day Ba Na Hills Experience) Breakfast at hotel. Visit Ba Na Hills; Le Jardin D’Amour (Paradise Garden); Da Nang French Village; halal buffet lunch at Ba Na Hills; Fantasy Park featuring Thrill Zone, Spirit of Adventure and Mystery World. Dinner at a halal restaurant; shopping at Night Market; return to hotel and overnight in Da Nang.",
+        "Day 4 Da Nang → Kuala Lumpur (MOB): (Departure Transfer According to Flight Schedule) Check out from hotel and transfer to Da Nang International Airport. Board the flight from Da Nang to Kuala Lumpur. Tour ends.",
+        "------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "3 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group Takaful insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated",
+        "Meals, beverages and additional entrance fees other than those stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-07-09",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-05",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-11",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "DNNG4D3N"
     }
   ]
 }

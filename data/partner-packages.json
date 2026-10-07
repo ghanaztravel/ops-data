@@ -125,6 +125,66 @@
       "commission": 0,
       "active": false,
       "tourCode": "JKRTP4D3N"
+    },
+    {
+      "id": "tockhog",
+      "name": "TAIWAN & ALISHAN: JELAJAH ALAM DAN BUDAYA TAIWAN-5H4M",
+      "dir": "outbound",
+      "dest": "Taiwan • Alishan",
+      "days": "5D4N",
+      "price": 3480,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 200,
+      "active": true,
+      "tourCode": "TWNALSHN5D4N"
+    },
+    {
+      "id": "tgxvd7p",
+      "name": "TAIWAN + TAIPEI 101-5D4N",
+      "dir": "outbound",
+      "dest": "Taiwan • Taipei 101",
+      "days": "5D4N",
+      "price": 3480,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "TWNTP1015H4N"
+    },
+    {
+      "id": "t23pna0",
+      "name": "JELAJAH SEOUL KOREA MH38/MH39-6D4N",
+      "dir": "outbound",
+      "dest": "Seoul • Incheon • Nami Island",
+      "days": "6D4N",
+      "price": 3580,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "SELKR6D4N"
+    },
+    {
+      "id": "tg916v6",
+      "name": "DANANG, BANA HILLS & HOI AN-4D3N",
+      "dir": "outbound",
+      "dest": "Da Nang • Bana Hills",
+      "days": "4D3N",
+      "price": 2680,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "DNNG4D3N"
     }
   ]
 }
