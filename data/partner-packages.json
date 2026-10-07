@@ -120,10 +120,10 @@
       "price": 2390,
       "promo": 1990,
       "promoUntil": "2026-10-31",
-      "material": "",
-      "image": "",
-      "commission": 0,
-      "active": false,
+      "material": "https://drive.google.com/drive/folders/1TCpx0PFNtwTW0RyicCJB0co4f9OGwLj6?usp=drive_link",
+      "image": "https://i.postimg.cc/tJyyXHJq/Jakarta-sunset-skyline-with-Monas.png",
+      "commission": 100,
+      "active": true,
       "tourCode": "JKRTP4D3N"
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "id": "t23pna0",
-      "name": "JELAJAH SEOUL KOREA MH38/MH39-6D4N",
+      "name": "SEOUL KOREA-6D4N(MUSLIM FRIENDLY)",
       "dir": "outbound",
       "dest": "Seoul • Incheon • Nami Island",
       "days": "6D4N",
@@ -245,6 +245,66 @@
       "commission": 0,
       "active": true,
       "tourCode": "BJNGMGL6D4N"
+    },
+    {
+      "id": "t6wpa8l",
+      "name": "CHENGDU, JIUZHAI & HUALONG-6D4N",
+      "dir": "outbound",
+      "dest": "Chengdu • Jiuzhai • Hualong",
+      "days": "6D4N",
+      "price": 4280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "CDJZHL6D4N"
+    },
+    {
+      "id": "tw6gtkw",
+      "name": "KUNMING, DALI & LIJIANG-7D5N",
+      "dir": "outbound",
+      "dest": "Kunming • Dali •Lijiang",
+      "days": "7D5N",
+      "price": 4580,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "KMGDLLJG7D5N"
+    },
+    {
+      "id": "tl5kg7u",
+      "name": "BEIJING HARBIN SNOW VILLAGE",
+      "dir": "outbound",
+      "dest": "Beijing • Harbin",
+      "days": "6D5N",
+      "price": 6280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "BJNGHSV6D5N"
+    },
+    {
+      "id": "tis0lgh",
+      "name": "BEIJING HARBIN YABULI-5D4N",
+      "dir": "outbound",
+      "dest": "Harbin • Yabuli",
+      "days": "5D4N",
+      "price": 4580,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "BJNGHYBL5D4N"
     }
   ]
 }

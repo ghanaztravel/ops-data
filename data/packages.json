@@ -452,6 +452,50 @@
       "tourCode": "SHNGD5D4N"
     },
     {
+      "id": "tifgr6d",
+      "name": "JAKARTA CITY TOUR PRIVATE (MIN 5PAX)-4D3N",
+      "dir": "outbound",
+      "dest": "Jakarta",
+      "days": "4D3N",
+      "price": 2390,
+      "promo": 1990,
+      "promoUntil": "2026-10-31",
+      "material": "https://drive.google.com/drive/folders/1TCpx0PFNtwTW0RyicCJB0co4f9OGwLj6?usp=drive_link",
+      "image": "https://i.postimg.cc/tJyyXHJq/Jakarta-sunset-skyline-with-Monas.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Jakarta (L): 3★ Jakarta – Hotel to be confirmed (Arrival day; free afternoon)                                                                                                                                                    Arrive at Soekarno-Hatta International Airport (CGK) and meet your local guide. Enjoy a halal Nasi Padang welcome lunch at Pagi Sore Restaurant. Transfer to the hotel for check-in. Free afternoon to relax. Overnight in Jakarta.",
+        "Day 2 Jakarta Iconic & Historical Tour (B/L/D): 3★ Jakarta – Hotel to be confirmed (Full sightseeing day)                                                                                                     Breakfast at the hotel. Visit Monas (National Monument), including admission and the lift ride to the observation deck; photo stops at Istiqlal Mosque and Jakarta Cathedral; Zuhur prayers at Istiqlal Mosque. Enjoy Soto Betawi Haji Ma’ruf for lunch. Explore Kota Tua Batavia, featuring Fatahillah Museum, colourful bicycles and Café Batavia; shopping at Mangga Dua for clothing, prayer garments and hijabs. Dinner and return to the hotel. Overnight in Jakarta.",
+        "Day 3 Modern Jakarta & Shopping (B/L/D): 3★ Jakarta – Hotel to be confirmed (Modern city and shopping day)                                                                                                        Breakfast at the hotel. Visit Taman Mini Indonesia Indah (TMII). Enjoy lunch at Bakso Lapangan Tembak Senayan; shopping at Grand Indonesia and Plaza Indonesia; explore M Bloc Space and Pasar Santa. Shop for souvenirs such as batik, crackers and dodol at Krisna Oleh-Oleh / Pasar Baru. Dinner and overnight in Jakarta.",
+        "Day 4 Jakarta → Kuala Lumpur (B): (Departure transfer according to flight schedule; tour ends)                                                                                                                                           Breakfast at the hotel and check out. If flight timing permits, stop at Tanah Abang for last-minute shopping. Transfer to Soekarno-Hatta International Airport (CGK) for your return flight to Kuala Lumpur.",
+        "--------------------------------------"
+      ],
+      "inc": [
+        "Return flights",
+        "Three nights’ accommodation at a 3★ hotel in Jakarta or equivalent.",
+        "Daily breakfast at the hotel.",
+        "Halal lunches and dinners as stated in the itinerary.",
+        "Air-conditioned ground transportation throughout the tour.",
+        "Entrance fees to attractions as stated, including Monas and TMII.",
+        "Local Malay / English-speaking tour guide.",
+        "Mineral water during the tour."
+      ],
+      "exc": [
+        "Personal expenses and shopping.",
+        "Tips for the driver and tour guide.",
+        "Additional activities or meals not stated in the itinerary.",
+        "Travel insurance.",
+        "Excess baggage charges."
+      ],
+      "deps": [
+        {
+          "date": "2027-01-21",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "JKRTP4D3N"
+    },
+    {
       "id": "tockhog",
       "name": "TAIWAN & ALISHAN-5D4N",
       "dir": "outbound",
@@ -565,7 +609,7 @@
     },
     {
       "id": "t23pna0",
-      "name": "JELAJAH SEOUL KOREA MH38/MH39-6D4N",
+      "name": "SEOUL KOREA-6D4N(MUSLIM FRIENDLY)",
       "dir": "outbound",
       "dest": "Seoul • Incheon • Nami Island",
       "days": "6D4N",
@@ -931,12 +975,273 @@
           "note": ""
         },
         {
+          "date": "2027-05-13",
+          "st": "open",
+          "note": ""
+        },
+        {
           "date": "2027-06-08",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-06",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-05",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-07",
           "st": "open",
           "note": ""
         }
       ],
       "tourCode": "BJNGMGL6D4N"
+    },
+    {
+      "id": "t6wpa8l",
+      "name": "CHENGDU, JIUZHAI & HUALONG-6D4N",
+      "dir": "outbound",
+      "dest": "Chengdu • Jiuzhai • Hualong",
+      "days": "6D4N",
+      "price": 4280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Chengdu (MOB): (Departure Day) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Chengdu.",
+        "Day 2 Chengdu → Jiuzhaigou (B/L/D): Jiuzhaigou Hotel (Scenic Journey & Ancient City) Arrive at Chengdu Tianfu International Airport; rest and check in at the hotel in Chengdu. Breakfast, check out and depart for Jiuzhaigou while enjoying the scenic views along the journey; stop at Diexi Lake for panoramic views of the lake and mountains; visit Mao County Mosque for prayer and rest; Songpan Ancient City, featuring traditional Chinese architecture and historical surroundings (City Wall access not included). Check in and overnight in Jiuzhaigou.",
+        "Day 3 Jiuzhaigou (B/L/D): Jiuzhaigou Hotel (Full-Day Jiuzhaigou Scenic Area) Breakfast at hotel. Explore Jiuzhaigou Scenic Area, famous for its crystal-clear blue lakes, waterfalls and breathtaking natural scenery (eco-friendly shuttle vehicle ticket included). Packed halal lunch provided. Return to hotel and overnight in Jiuzhaigou.",
+        "Day 4 Jiuzhaigou → Huanglong → Maoxian (B/L/D): Maoxian Hotel (Huanglong Scenic Experience) Breakfast and check out from hotel. Visit Songzhou Mosque; explore Huanglong Scenic Area, renowned for its colourful natural pools and spectacular mountain scenery (Cable Car and Battery Car included). Continue to Maoxian; check in and overnight in Maoxian.",
+        "Day 5 Maoxian → Chengdu (B/L/D): (Panda, Shopping & Departure Transfer) Breakfast and check out from hotel; return to Chengdu. Visit Dujiangyan Panda Valley to see giant pandas; sightseeing and shopping at Chunxi Road and IFS Taikoo Li; prayer stop at Imperial City Mosque. Transfer to Chengdu Tianfu International Airport for the return flight to Kuala Lumpur.",
+        "Day 6 Chengdu → Kuala Lumpur (MOB): (Arrival Day) Board the flight from Chengdu to Kuala Lumpur. Arrive in Kuala Lumpur. Tour ends.",
+        "-------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2026-12-01",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-12",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-15",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "CDJZHL6D4N"
+    },
+    {
+      "id": "tw6gtkw",
+      "name": "KUNMING, DALI & LIJIANG-7D5N",
+      "dir": "outbound",
+      "dest": "Kunming • Dali •Lijiang",
+      "days": "7D5N",
+      "price": 4580,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Kunming (MOB): (Departure Day) Gather at Kuala Lumpur International Airport 1 (KLIA 1) for check-in and board the flight from Kuala Lumpur to Kunming.",
+        "Day 2 Kunming → Shilin → Dali (B/L/D): Dali Hotel (Stone Forest & Ancient Town) Arrive at Kunming International Airport and check in at the hotel. Breakfast and check out; visit Naigu Stone Forest, a UNESCO World Heritage Site famous for its unique limestone formations; lunch; take the high-speed train to Dali; explore Dali Ancient Town and Foreigner Street, known for traditional architecture and unique shops. Overnight in Dali.",
+        "Day 3 Dali → Weishan → Lijiang (B/L/D): Lijiang Hotel (Heritage & Muslim Culture) Breakfast. Visit Weishan Ancient City, known for its Ming Dynasty architecture; Donglianhua Mosque, a unique Islamic heritage landmark; continue to Lijiang, a UNESCO World Heritage ancient city; explore Lijiang Ancient Town and the lively Sifang Street. Overnight in Lijiang.",
+        "Day 4 Lijiang (B/L/D): Lijiang Hotel (Jade Dragon Snow Mountain Experience – Packed Lunch) Breakfast. Explore Jade Dragon Snow Mountain Glacier Park (shuttle bus and cable car to Spruce Meadow included); enjoy the Impression Lijiang Song and Dance Show against the spectacular mountain backdrop; visit Baishui River and Blue Moon Valley; stop at Lijiang Mosque and the scenic Black Dragon Pool. Overnight in Lijiang.",
+        "Day 5 Lijiang → Kunming (B/L/D): Kunming Hotel (High-Speed Train & Shopping) Breakfast and check out. Take the high-speed train back to Kunming; visit Nanping Pedestrian Street for sightseeing and shopping; stop at Shuncheng Mosque, one of the oldest mosques in Kunming. Overnight in Kunming.",
+        "Day 6 Kunming (B/L/D): (Shopping & Departure Transfer) Breakfast and check out. Visit Yunfang Dashanghui, a popular modern shopping centre; visit Yongning Mosque, known for its historical significance; transfer to Kunming International Airport for the return flight.",
+        "Day 7 Kunming → Kuala Lumpur: (Tour Ends) Board the return flight from Kunming and arrive in Kuala Lumpur. Tour ends.",
+        "-----------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "20kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2026-11-23",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "KMGDLLJG7D5N"
+    },
+    {
+      "id": "tl5kg7u",
+      "name": "BEIJING HARBIN SNOW VILLAGE",
+      "dir": "outbound",
+      "dest": "Beijing • Harbin",
+      "days": "6D5N",
+      "price": 6280,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Beijing → Harbin (MOB/L/D): Harbin Hotel (Beijing City Tour & High-Speed Train) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Beijing; arrive at Beijing Daxing International Airport; visit Tiananmen Square and Qianmen Street; transfer to the railway station and take the high-speed train to Harbin; meet and greet by the local Harbin tour guide; stop at Northeast Cotton Clothes Store; check in and overnight in Harbin.",
+        "Day 2 Harbin → Yabuli → Snow Village (B/-/-): Snow Village Accommodation (Winter & Snow Experience) Breakfast and check out. Depart for Yabuli; enjoy a horse-drawn sleigh experience; visit Snow Town Village (entrance ticket and shuttle bus included); stroll along Snow Charm Street; enjoy the scenery from the wooden walkway and Bangchui Mountain; free time to explore Snow Town. Check in and overnight in Snow Town. Optional Activity: Skiing at Ski Resort – approximately RMB300 per person.",
+        "Day 3 Snow Village → Harbin (B/-/D): Harbin Hotel (Snow Village & Harbin City Tour) Breakfast and check out. Visit Snow Town Stone Monument; return to Harbin; stroll along Central Street; visit Sophia Cathedral Square. Check in and overnight in Harbin.",
+        "Day 4 Harbin → Volga Estate → Harbin (B/L/D): Harbin Hotel (Volga Estate & Ice and Snow World) Breakfast at hotel. Visit Volga Estate; St. Nicholas Church; Vodka Castle; Petrov Art Palace; experience the spectacular Ice and Snow World. Return to hotel and overnight in Harbin.",
+        "Day 5 Harbin → Beijing (B/L/D): Beijing Hotel (High-Speed Train & Shopping) Breakfast and check out. Take the high-speed train back to Beijing; visit Xiushui Street; shopping at Hongqiao Market. Check in and overnight in Beijing.",
+        "Day 6 Beijing → Kuala Lumpur (B/MOB): (Departure Day) Breakfast and check out. Transfer to the airport for the return flight to Kuala Lumpur. Arrive in Kuala Lumpur. Tour ends."
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "5 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-01-03",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "BJNGHSV6D5N"
+    },
+    {
+      "id": "tis0lgh",
+      "name": "BEIJING HARBIN YABULI-5D4N",
+      "dir": "outbound",
+      "dest": "Harbin • Yabuli",
+      "days": "5D4N",
+      "price": 4580,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Beijing → Harbin (-/L/D): Harbin Hotel (Arrival & High-Speed Train) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Beijing; arrive at Beijing Daxing International Airport; transfer to the railway station and take the high-speed train to Harbin; packed lunch provided; photo stop at the famous Giant Snowman. Check in and overnight in Harbin.",
+        "Day 2 Harbin → Yabuli → Harbin (B/L/D): Harbin Hotel (Yabuli Winter Experience) Breakfast at hotel. Depart for Yabuli and enjoy a Horse-Drawn Sledge Ride; return to Harbin; dinner. Return to hotel and overnight in Harbin.",
+        "Day 3 Harbin (B/L/D): Harbin Hotel (Harbin City & Ice Experience) Breakfast at hotel. Visit Daowai Mosque; stroll along Central Street; photo stop at Saint Sophia Cathedral Square; visit Harbin Ice & Snow World; dinner. Return to hotel and overnight in Harbin.",
+        "Day 4 Harbin → Beijing (B/L/D): Beijing Hotel (High-Speed Train & Shopping) Breakfast and check out. Transfer to the railway station and take the high-speed train to Beijing; packed lunch provided; stroll along Qianmen Street; shopping at Hongqiao Market; dinner. Check in and overnight in Beijing.",
+        "Day 5 Beijing → Kuala Lumpur (B/MOB): (Departure Day) Breakfast and check out. Transfer to the airport for the return flight to Kuala Lumpur. Arrive in Kuala Lumpur. Tour ends.",
+        "------------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver",
+        "Give feedback",
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-01-08",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-27",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "BJNGHYBL5D4N"
     }
   ]
 }
