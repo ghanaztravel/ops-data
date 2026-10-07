@@ -230,6 +230,21 @@
       "commission": 0,
       "active": true,
       "tourCode": "BGKKNCB5D4N"
+    },
+    {
+      "id": "thl6pvu",
+      "name": "BEIJING & INNER MONGOLIA-6D4N",
+      "dir": "outbound",
+      "dest": "Beijing • Inner Mongolia",
+      "days": "6D4N",
+      "price": 3680,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "commission": 0,
+      "active": true,
+      "tourCode": "BJNGMGL6D4N"
     }
   ]
 }

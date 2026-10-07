@@ -65,6 +65,11 @@
           "date": "2027-08-14",
           "st": "open",
           "note": ""
+        },
+        {
+          "date": "2027-05-13",
+          "st": "open",
+          "note": ""
         }
       ],
       "tourCode": "YNNN9D7N"
@@ -864,6 +869,74 @@
         }
       ],
       "tourCode": "BGKKNCB5D4N"
+    },
+    {
+      "id": "thl6pvu",
+      "name": "BEIJING & INNER MONGOLIA-6D4N",
+      "dir": "outbound",
+      "dest": "Beijing • Inner Mongolia",
+      "days": "6D4N",
+      "price": 3680,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "",
+      "image": "",
+      "itin": [
+        "Day 1 Kuala Lumpur → Beijing (MOB): (Departure Day) Gather at KLIA for check-in and board the flight from Kuala Lumpur to Beijing Daxing International Airport (PKX).",
+        "Day 2 Beijing → Hohhot → Xilamuren Grassland (L/D): Xilamuren Yurt (Mongolian Cultural Experience) Arrive at Beijing Daxing International Airport; take the high-speed train to Hohhot, the capital of Inner Mongolia (approximately 2.5 hours); continue to Xilamuren Grassland; visit a local Mongolian family and Aobao Hill to experience the local culture and traditions; enjoy a Campfire Party in the evening. Overnight in a traditional Yurt.",
+        "Day 3 Xilamuren Grassland → Hohhot (B/L/D): Hohhot Hotel (Culture, Mosque & Muslim Street) Breakfast and check out from the Yurt. Inner Mongolia Museum; photo stop at the Tomb of Wang Zhaojun; visit the Great Mosque; explore and shop at Kuan Xiangzi Muslim Street Food; sightseeing and souvenir shopping at Saishang Laojie Street. Check in and overnight in Hohhot.",
+        "Day 4 Hohhot → Kubuqi Desert → Hohhot (B/L/D): Hohhot Hotel (Desert Experience) Breakfast at hotel. Travel to Kubuqi Desert to enjoy the desert scenery and various optional activities (optional activities not included). After dinner, return to Hohhot and overnight at hotel.",
+        "Day 5 Hohhot → Beijing City Tour (B/L/D): Beijing Hotel (Shopping & Night View) Breakfast and check out from hotel. Take the high-speed Bullet Train back to Beijing; shopping at Hongqiao Market for souvenirs, clothing and local products; enjoy the beautiful evening scenery at Landmark River. Return to hotel and overnight in Beijing.",
+        "Day 6 Beijing → Kuala Lumpur (MOB): (Departure Transfer According to Flight Schedule) Check out from hotel and transfer to Beijing Airport. Board the flight from Beijing to Kuala Lumpur. Tour ends.",
+        "-----------------------------------"
+      ],
+      "inc": [
+        "Round-trip economy class flight tickets",
+        "Fuel surcharge and airport taxes",
+        "High-speed train (Bullet Train) tickets",
+        "30kg checked baggage allowance for both departure and return flights",
+        "In-flight meals for both departure and return flights",
+        "4 nights’ accommodation at a 3-star hotel",
+        "Daily breakfast at the hotel",
+        "Halal / Muslim-friendly meals as per itinerary",
+        "Air-conditioned coach transportation with driver",
+        "Professional English-speaking tour guide",
+        "Entrance fees to attractions as per itinerary",
+        "Experienced tour leader",
+        "Group insurance",
+        "Tips for tour guide & coach driver"
+      ],
+      "exc": [
+        "Additional insurance coverage",
+        "Insurance coverage for participants aged 65 years and above",
+        "Additional surcharges during peak seasons, festive periods and public holidays",
+        "Additional hotel services such as laundry, snacks, minibar and porter services unless otherwise stated in the itinerary",
+        "Excess baggage charges",
+        "Any other items not stated in the package"
+      ],
+      "deps": [
+        {
+          "date": "2027-04-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-28",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-08",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "BJNGMGL6D4N"
     }
   ]
 }
