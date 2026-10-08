@@ -117,7 +117,7 @@
       "dir": "outbound",
       "dest": "Jakarta",
       "days": "4D3N",
-      "price": 2390,
+      "price": 2130,
       "promo": 1990,
       "promoUntil": "2026-10-31",
       "material": "https://drive.google.com/drive/folders/1TCpx0PFNtwTW0RyicCJB0co4f9OGwLj6?usp=drive_link",
@@ -137,7 +137,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 200,
+      "commission": 100,
       "active": true,
       "tourCode": "TWNALSHN5D4N"
     },
@@ -167,7 +167,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "SELKR6D4N"
     },
@@ -182,7 +182,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "DNNG4D3N"
     },
@@ -197,7 +197,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "DMH5D4N"
     },
@@ -212,7 +212,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "BGKKNCB4D3N"
     },
@@ -227,7 +227,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "BGKKNCB5D4N"
     },
@@ -242,7 +242,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "BJNGMGL6D4N"
     },
@@ -257,7 +257,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "CDJZHL6D4N"
     },
@@ -272,7 +272,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "KMGDLLJG7D5N"
     },
@@ -302,7 +302,7 @@
       "promoUntil": "",
       "material": "",
       "image": "",
-      "commission": 0,
+      "commission": 100,
       "active": true,
       "tourCode": "BJNGHYBL5D4N"
     }
