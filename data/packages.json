@@ -3,7 +3,7 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "whatsapp": "60108800854",
     "email": "",
-    "asOf": "2026-10-10",
+    "asOf": "2026-10-11",
     "editPin": ""
   },
   "trips": [
@@ -102,13 +102,7 @@
         "Flights",
         "Insurance"
       ],
-      "deps": [
-        {
-          "date": "2026-10-10",
-          "st": "open",
-          "note": ""
-        }
-      ],
+      "deps": [],
       "tourCode": "SRWK4D3N"
     },
     {
@@ -1237,6 +1231,53 @@
         }
       ],
       "tourCode": "BJNGHYBL5D4N"
+    },
+    {
+      "id": "tar0spr",
+      "name": "Safari Park Kanchanaburi with Private Car from Bangkok (MIN 2PAX)",
+      "dir": "outbound",
+      "dest": "Kanchanaburi • Safari Park Kanchanaburi",
+      "days": "DAILY",
+      "price": 373,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/1xjFGvEGyOT34vQtGbC-i_Lhma2E0C2i0?usp=drive_link",
+      "image": "https://i.postimg.cc/zfQ9fXWy/Family-safari-framed-by-giraffes.png",
+      "itin": [
+        "Day 1 Bangkok → Kanchanaburi → Bangkok (No meals included): (Private day tour; Safari Park admission included)",
+        "08:00 Pick up from your Bangkok hotel and travel to Kanchanaburi.",
+        "11:30 Lunch stop at Keeree Mantra Restaurant (own expense);",
+        "13:30 visit Safari Park Kanchanaburi for the safari tour, elephant show and crocodile show;",
+        "15:30 café stop (own expense).",
+        "17:00 Depart for Bangkok.",
+        "20:00 drop off at your hotel around.",
+        "----------------------------------------------------",
+        "TERMS & CONDITIONS",
+        "• Giraffe Encounter must be booked at least 3 days in advance, subject to availability.",
+        "• Outside food and beverages are not allowed inside the park.",
+        "• Ticket is valid for one-time use according to the date, time and number of participants stated.",
+        "• One free postponement is permitted with notification to Ticket can be postponed ONE time without charge and customers must inform Ghanaz Travel within 48 hours prior to the service date mentioned in the voucher.",
+        "• Cancellation requires at least 48 hours’ notice and is subject to a fee.",
+        "• Be ready at the hotel lobby 10 minutes before pickup. Pickup may vary within a 30-minute window due to traffic.",
+        "• The itinerary is subject to weather, traffic and safety conditions.",
+        "• If the operator cancels due to unforeseen circumstances or bad weather, customers may reschedule or request a full refund."
+      ],
+      "inc": [
+        "12-hour private car rental with driver and round-trip Bangkok hotel transfers.",
+        "Safari Park admission ticket.",
+        "Elephant show and crocodile show.",
+        "Fuel, parking fees and toll charges.",
+        "English-speaking tour guide for groups of 4 persons or more."
+      ],
+      "exc": [
+        "Play & Walk with Tiger and tiger cub interaction.",
+        "Giraffe photography experience on a private jeep.(add on 1000Baht perpax)",
+        "Animal feed.",
+        "Meals and beverages.",
+        "Gratuities.                                                               Overtime charges: THB 300 per hour, payable in cash to the driver."
+      ],
+      "deps": [],
+      "tourCode": "SFRDY"
     }
   ]
 }

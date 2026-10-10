@@ -305,6 +305,21 @@
       "commission": 100,
       "active": true,
       "tourCode": "BJNGHYBL5D4N"
+    },
+    {
+      "id": "tar0spr",
+      "name": "Safari Park Kanchanaburi with Private Car from Bangkok (MIN 2PAX)",
+      "dir": "outbound",
+      "dest": "Kanchanaburi • Safari Park Kanchanaburi",
+      "days": "DAILY",
+      "price": 373,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/1xjFGvEGyOT34vQtGbC-i_Lhma2E0C2i0?usp=drive_link",
+      "image": "https://i.postimg.cc/zfQ9fXWy/Family-safari-framed-by-giraffes.png",
+      "commission": 20,
+      "active": true,
+      "tourCode": "SFRDY"
     }
   ]
 }
