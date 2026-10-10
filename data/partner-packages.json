@@ -286,8 +286,8 @@
       "promo": 0,
       "promoUntil": "",
       "material": "https://drive.google.com/drive/folders/1BRjd7gE3h4fe84dyEmkbtHK6ZsM0CGJb?usp=drive_link",
-      "image": "",
-      "commission": 0,
+      "image": "https://i.postimg.cc/RVL2B5m6/Snowy-Harbin-Village-Panorama.png",
+      "commission": 100,
       "active": true,
       "tourCode": "BJNGHSV6D5N"
     },
@@ -301,7 +301,7 @@
       "promo": 0,
       "promoUntil": "",
       "material": "https://drive.google.com/drive/folders/1Rtf4F9RwtOGRIdFH-FA_FReqvvre2xZ6?usp=drive_link",
-      "image": "",
+      "image": "https://i.postimg.cc/MTXzcZWd/Rime-Covered-Snowy-Woodland.png",
       "commission": 100,
       "active": true,
       "tourCode": "BJNGHYBL5D4N"
