@@ -15,7 +15,7 @@
       "days": "9D7N",
       "price": 5290,
       "promo": 4890,
-      "promoUntil": "2027-01-31",
+      "promoUntil": "2026-12-31",
       "material": "https://drive.google.com/drive/folders/17mWN3g5IrtoaIhKMVktuPu2_4bXfJWDU?usp=drive_link",
       "image": "https://i.postimg.cc/qv7YCV5g/Chat-GPT-Image-Sep-23-2026-01-07-27-PM.png",
       "itin": [
@@ -150,8 +150,8 @@
       "dest": "Hatyai • Songkhla",
       "days": "4D2N",
       "price": 429,
-      "promo": 0,
-      "promoUntil": "",
+      "promo": 419,
+      "promoUntil": "2026-10-23",
       "material": "https://drive.google.com/drive/folders/1YDJzgsXoz5ACOBZEDPtKoa8tkfeF3_Eo?usp=drive_link",
       "image": "https://i.postimg.cc/0N1Rb4xt/Chat-GPT-Image-Sep-23-2026-07-57-31-PM.png",
       "itin": [
@@ -238,8 +238,8 @@
       "dest": "Hatyai • Songkhla",
       "days": "4D2N",
       "price": 705,
-      "promo": 699,
-      "promoUntil": "2026-12-31",
+      "promo": 0,
+      "promoUntil": "",
       "material": "https://drive.google.com/drive/folders/1sC_GjNAkgMlJ0DRL_p-lYNClAf1V_ykB?usp=drive_link",
       "image": "https://i.postimg.cc/nhb9s2PY/Chat-GPT-Image-Sep-24-2026-05-35-51-PM.png",
       "itin": [
@@ -1385,6 +1385,13 @@
       "depDate": "",
       "caption": "✈️ CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N\n4D2N • Hatyai • Songkhla\n💰 Was RM 705, now RM 699!\nPromo ends 31 Dec 2026 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-10-12T14:46:09.023Z"
+    },
+    {
+      "tripId": "ttp6frg",
+      "tripName": "CLASSIC HATYAI-4D2N",
+      "depDate": "2026-10-23",
+      "caption": "✈️ CLASSIC HATYAI-4D2N\n4D2N • Hatyai • Songkhla\n💰 Was RM 429, now RM 419!\nPromo ends 23 Oct 2026 — don’t miss out!\n📅 Departure: 23 Oct 2026\n📍 Book now: https://packages.ghanaz.com.my",
+      "savedAt": "2026-10-12T15:31:10.668Z"
     }
   ]
 }
