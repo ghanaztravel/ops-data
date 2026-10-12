@@ -141,6 +141,24 @@ def build_partner_trips(trips, deps, sales, prev_trips):
     return out
 
 
+def build_featured_push(fp, trips):
+    """The one package+date NAZ picked in the dashboard's "Push" tab, if any.
+    Carried into the partner feed so agents can copy/paste it themselves
+    (the dashboard no longer sends WhatsApp messages directly)."""
+    if not fp or not fp.get("tripId"):
+        return None
+    t = next((x for x in trips if x.get("id") == fp["tripId"]), None)
+    if not t or t.get("active") is False:
+        return None
+    return {
+        "tripId": t["id"],
+        "tripName": t["name"],
+        "depDate": fp.get("depDate") or "",
+        "caption": fp.get("caption") or "",
+        "savedAt": fp.get("savedAt") or "",
+    }
+
+
 def main():
     if len(sys.argv) != 2:
         print("usage: sync_dashboard.py <dashboard_data.json>", file=sys.stderr)
@@ -176,6 +194,7 @@ def main():
         part = json.load(f)
     part_before = json.dumps(part, sort_keys=True)
     part["trips"] = build_partner_trips(trips, deps, sales, part.get("trips"))
+    part["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
     part_after = json.dumps(part, sort_keys=True)
     if part_before != part_after:
         changed = True
