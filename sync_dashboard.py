@@ -191,6 +191,10 @@ def main():
     cust.setdefault("config", {})
     cust["config"]["asOf"] = today_str()
     cust["trips"] = build_customer_trips(trips, deps, sales)
+    # The office's picked "push this date" list (from the dashboard's Push
+    # tab) is used by the customer site to highlight that exact departure in
+    # the top promo strip, instead of always defaulting to the soonest one.
+    cust["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
     cust_after = json.dumps(cust, sort_keys=True)
     if cust_before != cust_after:
         changed = True
