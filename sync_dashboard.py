@@ -70,11 +70,19 @@ def build_customer_trips(trips, deps, sales):
     for t in trips:
         if t.get("active") is False:
             continue
-        trip_deps = [
-            {"date": d["date"], "st": seat_state(d, sales), "note": d.get("note") or ""}
-            for d in deps
-            if d.get("tripId") == t["id"] and d.get("date", "") >= now
-        ]
+        trip_deps = []
+        for d in deps:
+            if d.get("tripId") != t["id"] or d.get("date", "") < now:
+                continue
+            st = seat_state(d, sales)
+            entry = {"date": d["date"], "st": st, "note": d.get("note") or ""}
+            # Only reveal a seat count once it's scarce (low/full) — customers
+            # see "available" with no number when there's no urgency to show.
+            if st != "open":
+                seats = num(d.get("seats"))
+                sold = sold_for(d.get("id"), sales)
+                entry["left"] = max(0, int(seats - sold))
+            trip_deps.append(entry)
         o = {
             "id": t["id"],
             "name": t["name"],
