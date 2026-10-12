@@ -64,25 +64,31 @@ def tour_code(t):
     return (t.get("tourCode") or "").strip()
 
 
-def build_customer_trips(trips, deps, sales):
+def build_trip_deps(trip_id, deps, sales):
     now = today_str()
+    trip_deps = []
+    for d in deps:
+        if d.get("tripId") != trip_id or d.get("date", "") < now:
+            continue
+        st = seat_state(d, sales)
+        entry = {"date": d["date"], "st": st, "note": d.get("note") or ""}
+        # Only reveal a seat count once it's scarce (low/full) — viewers see
+        # "available" with no number when there's no urgency to show.
+        if st != "open":
+            seats = num(d.get("seats"))
+            sold = sold_for(d.get("id"), sales)
+            entry["left"] = max(0, int(seats - sold))
+        trip_deps.append(entry)
+    trip_deps.sort(key=lambda x: x["date"])
+    return trip_deps
+
+
+def build_customer_trips(trips, deps, sales):
     out = []
     for t in trips:
         if t.get("active") is False:
             continue
-        trip_deps = []
-        for d in deps:
-            if d.get("tripId") != t["id"] or d.get("date", "") < now:
-                continue
-            st = seat_state(d, sales)
-            entry = {"date": d["date"], "st": st, "note": d.get("note") or ""}
-            # Only reveal a seat count once it's scarce (low/full) — customers
-            # see "available" with no number when there's no urgency to show.
-            if st != "open":
-                seats = num(d.get("seats"))
-                sold = sold_for(d.get("id"), sales)
-                entry["left"] = max(0, int(seats - sold))
-            trip_deps.append(entry)
+        trip_deps = build_trip_deps(t["id"], deps, sales)
         o = {
             "id": t["id"],
             "name": t["name"],
@@ -106,7 +112,7 @@ def build_customer_trips(trips, deps, sales):
     return out
 
 
-def build_partner_trips(trips, prev_trips):
+def build_partner_trips(trips, deps, sales, prev_trips):
     # Commission now lives in the dashboard itself (not encrypted, a plain
     # per-trip field the agency owner fills in directly) so it syncs
     # automatically just like price, promo and photo. prev_trips is no
@@ -126,6 +132,7 @@ def build_partner_trips(trips, prev_trips):
             "image": t.get("image") or "",
             "commission": num(t.get("commission")) or 0,
             "active": t.get("active") is not False,
+            "deps": build_trip_deps(t["id"], deps, sales),
         }
         tc = tour_code(t)
         if tc:
@@ -168,7 +175,7 @@ def main():
     with open(part_path) as f:
         part = json.load(f)
     part_before = json.dumps(part, sort_keys=True)
-    part["trips"] = build_partner_trips(trips, part.get("trips"))
+    part["trips"] = build_partner_trips(trips, deps, sales, part.get("trips"))
     part_after = json.dumps(part, sort_keys=True)
     if part_before != part_after:
         changed = True

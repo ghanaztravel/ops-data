@@ -19,6 +19,23 @@
       "image": "https://i.postimg.cc/qv7YCV5g/Chat-GPT-Image-Sep-23-2026-01-07-27-PM.png",
       "commission": 300,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-11-17",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-01-16",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-22",
+          "st": "open",
+          "note": "School Holiday"
+        }
+      ],
       "tourCode": "YNNN9D7N"
     },
     {
@@ -34,6 +51,7 @@
       "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
       "commission": 100,
       "active": true,
+      "deps": [],
       "tourCode": "SRWK4D3N"
     },
     {
@@ -49,6 +67,13 @@
       "image": "https://i.postimg.cc/2SKz1x2C/Chat-GPT-Image-Sep-23-2026-01-18-36-PM.png",
       "commission": 300,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-03-19",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "XNJN9D7N"
     },
     {
@@ -64,6 +89,63 @@
       "image": "https://i.postimg.cc/0N1Rb4xt/Chat-GPT-Image-Sep-23-2026-07-57-31-PM.png",
       "commission": 50,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-10-16",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-23",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-24",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-10-30",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-06",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-20",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-10",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-24",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-31",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "HTYC4D2N"
     },
     {
@@ -79,6 +161,7 @@
       "image": "https://i.postimg.cc/nhb9s2PY/Chat-GPT-Image-Sep-24-2026-05-35-51-PM.png",
       "commission": 27,
       "active": true,
+      "deps": [],
       "tourCode": "HTYP4D2N"
     },
     {
@@ -94,6 +177,33 @@
       "image": "https://i.postimg.cc/gJ9S3rhy/Chat-GPT-Image-Sep-30-2026-09-49-42-PM.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-11-18",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-20",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-03-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-09",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "SHNG5D4N"
     },
     {
@@ -109,6 +219,73 @@
       "image": "https://i.postimg.cc/QdpJnhvk/Chat-GPT-Image-Sep-30-2026-10-06-35-PM.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-12-30",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-01-02",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-19",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-01",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-24",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-15",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-29",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-05",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "SHNGD5D4N"
     },
     {
@@ -124,6 +301,14 @@
       "image": "https://i.postimg.cc/tJyyXHJq/Jakarta-sunset-skyline-with-Monas.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-01-21",
+          "st": "low",
+          "note": "",
+          "left": 3
+        }
+      ],
       "tourCode": "JKRTP4D3N"
     },
     {
@@ -139,6 +324,13 @@
       "image": "https://i.postimg.cc/HnrRC60V/Red-Train-at-Alishan-Station.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-03-17",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "TWNALSHN5D4N"
     },
     {
@@ -154,6 +346,23 @@
       "image": "",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-01-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-03-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-01",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "TWNTP1015H4N"
     },
     {
@@ -169,6 +378,13 @@
       "image": "https://i.postimg.cc/bJ1CrY9t/Gapyeong-Station-to-Nami-Island-Autumn-Escape.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-01-06",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "SELKR6D4N"
     },
     {
@@ -184,6 +400,23 @@
       "image": "https://i.postimg.cc/7ZYDGpzk/Vietnam-s-Golden-Bridge-at-Sunset.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-07-09",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-05",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-11",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "DNNG4D3N"
     },
     {
@@ -199,6 +432,118 @@
       "image": "https://i.postimg.cc/6pQ98y2y/Sunset-lookout-above-the-clouds.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-11-09",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-28",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-12-29",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-05",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-15",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-20",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-03-17",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-03-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-01",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-28",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-29",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-06",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-20",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-15",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-29",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-06",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "DMH5D4N"
     },
     {
@@ -214,6 +559,38 @@
       "image": "https://i.postimg.cc/CMq1HBKK/Kanchanaburi-Temple-Panorama-with-Golden-Buddha.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-01-15",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-30",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-07",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-16",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-12",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "BGKKNCB4D3N"
     },
     {
@@ -229,6 +606,13 @@
       "image": "https://i.postimg.cc/GmKGwM6c/Bangkok-and-Kanchanaburi-scenic-travel-collage.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-12-27",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "BGKKNCB5D4N"
     },
     {
@@ -244,6 +628,53 @@
       "image": "https://i.postimg.cc/Z5ywxzM2/Great-Wall-and-Mongolian-Grasslands.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-04-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-28",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-08",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-06",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-07-27",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-05",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-07",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "BJNGMGL6D4N"
     },
     {
@@ -259,6 +690,18 @@
       "image": "https://i.postimg.cc/9Q4KxF1F/Golden-sunrise-over-Sichuan-peaks.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-12-01",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-12",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "CDJZHL6D4N"
     },
     {
@@ -274,6 +717,13 @@
       "image": "https://i.postimg.cc/sDXtPHSt/Yunnan-s-Jade-Dragon-Mountain-Stage.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2026-11-23",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "KMGDLLJG7D5N"
     },
     {
@@ -289,6 +739,13 @@
       "image": "https://i.postimg.cc/RVL2B5m6/Snowy-Harbin-Village-Panorama.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-01-03",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "BJNGHSV6D5N"
     },
     {
@@ -304,6 +761,18 @@
       "image": "https://i.postimg.cc/MTXzcZWd/Rime-Covered-Snowy-Woodland.png",
       "commission": 100,
       "active": true,
+      "deps": [
+        {
+          "date": "2027-01-08",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-27",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "BJNGHYBL5D4N"
     },
     {
@@ -319,6 +788,7 @@
       "image": "https://i.postimg.cc/zfQ9fXWy/Family-safari-framed-by-giraffes.png",
       "commission": 20,
       "active": true,
+      "deps": [],
       "tourCode": "SFRDY"
     }
   ]
