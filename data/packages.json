@@ -484,7 +484,8 @@
         {
           "date": "2027-01-21",
           "st": "low",
-          "note": ""
+          "note": "",
+          "left": 3
         }
       ],
       "tourCode": "JKRTP4D3N"
