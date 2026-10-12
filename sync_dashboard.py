@@ -141,22 +141,30 @@ def build_partner_trips(trips, deps, sales, prev_trips):
     return out
 
 
-def build_featured_push(fp, trips):
-    """The one package+date NAZ picked in the dashboard's "Push" tab, if any.
-    Carried into the partner feed so agents can copy/paste it themselves
-    (the dashboard no longer sends WhatsApp messages directly)."""
-    if not fp or not fp.get("tripId"):
-        return None
-    t = next((x for x in trips if x.get("id") == fp["tripId"]), None)
-    if not t or t.get("active") is False:
-        return None
-    return {
-        "tripId": t["id"],
-        "tripName": t["name"],
-        "depDate": fp.get("depDate") or "",
-        "caption": fp.get("caption") or "",
-        "savedAt": fp.get("savedAt") or "",
-    }
+def build_featured_push(fp_list, trips):
+    """Every package+date NAZ picked in the dashboard's "Push" tab (any number).
+    Carried into the partner feed so agents can copy/paste each one themselves
+    (the dashboard no longer sends WhatsApp messages directly). Accepts the old
+    single-object shape too, for data saved before this became a list."""
+    if not fp_list:
+        return []
+    if isinstance(fp_list, dict):
+        fp_list = [fp_list]
+    out = []
+    for fp in fp_list:
+        if not fp or not fp.get("tripId"):
+            continue
+        t = next((x for x in trips if x.get("id") == fp["tripId"]), None)
+        if not t or t.get("active") is False:
+            continue
+        out.append({
+            "tripId": t["id"],
+            "tripName": t["name"],
+            "depDate": fp.get("depDate") or "",
+            "caption": fp.get("caption") or "",
+            "savedAt": fp.get("savedAt") or "",
+        })
+    return out
 
 
 def main():
