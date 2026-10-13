@@ -21,11 +21,6 @@
       "active": true,
       "deps": [
         {
-          "date": "2026-11-17",
-          "st": "open",
-          "note": "School holiday"
-        },
-        {
           "date": "2027-01-16",
           "st": "open",
           "note": ""
