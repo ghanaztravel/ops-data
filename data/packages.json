@@ -3,7 +3,7 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "whatsapp": "60108800854",
     "email": "",
-    "asOf": "2026-10-14",
+    "asOf": "2026-10-18",
     "editPin": ""
   },
   "trips": [
@@ -71,8 +71,8 @@
       "dest": "Sarawak, Malaysia",
       "days": "4D3N",
       "price": 1800,
-      "promo": 0,
-      "promoUntil": "",
+      "promo": 1700,
+      "promoUntil": "2026-11-16",
       "material": "https://drive.google.com/drive/folders/1Kexm-dJLuBbA0U4BpTE7nh9eJD_ylG_0?usp=drive_link",
       "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
       "itin": [
@@ -173,11 +173,6 @@
         "Personal Expenses"
       ],
       "deps": [
-        {
-          "date": "2026-10-16",
-          "st": "open",
-          "note": ""
-        },
         {
           "date": "2026-10-23",
           "st": "open",
