@@ -131,6 +131,7 @@ def build_partner_trips(trips, deps, sales, prev_trips):
             "material": t.get("material") or "",
             "image": t.get("image") or "",
             "commission": num(t.get("commission")) or 0,
+            "deposit": (t.get("deposit") or "").strip(),
             "active": t.get("active") is not False,
             "deps": build_trip_deps(t["id"], deps, sales),
         }
