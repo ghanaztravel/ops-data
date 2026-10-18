@@ -49,6 +49,8 @@ def sold_for(dep_id, sales, skip_id=None):
 
 
 def seat_state(dep, sales):
+    if dep.get("closed"):
+        return "full"
     seats = num(dep.get("seats"))
     sold = sold_for(dep.get("id"), sales)
     left = seats - sold
