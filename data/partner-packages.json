@@ -18,7 +18,7 @@
       "material": "https://drive.google.com/drive/folders/17mWN3g5IrtoaIhKMVktuPu2_4bXfJWDU?usp=drive_link",
       "image": "https://i.postimg.cc/qv7YCV5g/Chat-GPT-Image-Sep-23-2026-01-07-27-PM.png",
       "commission": 300,
-      "deposit": "",
+      "deposit": "1000",
       "active": true,
       "deps": [
         {
@@ -51,7 +51,7 @@
       "material": "https://drive.google.com/drive/folders/1Kexm-dJLuBbA0U4BpTE7nh9eJD_ylG_0?usp=drive_link",
       "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
       "commission": 100,
-      "deposit": "",
+      "deposit": "1000",
       "active": true,
       "deps": [],
       "tourCode": "SRWK4D3N"
