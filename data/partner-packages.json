@@ -52,7 +52,7 @@
       "material": "https://drive.google.com/drive/folders/1Kexm-dJLuBbA0U4BpTE7nh9eJD_ylG_0?usp=drive_link",
       "image": "https://i.postimg.cc/mkwXt8NW/Chat-GPT-Image-Sep-23-2026-01-04-59-PM.png",
       "commission": 100,
-      "deposit": "1000",
+      "deposit": "500",
       "active": true,
       "deps": [],
       "tourCode": "SRWK4D3N"
@@ -69,7 +69,7 @@
       "material": "https://drive.google.com/drive/folders/1eBcf3syzK-vSMGEMkmC0JhObZQxYpljn?usp=drive_link",
       "image": "https://i.postimg.cc/2SKz1x2C/Chat-GPT-Image-Sep-23-2026-01-18-36-PM.png",
       "commission": 300,
-      "deposit": "",
+      "deposit": "1000",
       "active": true,
       "deps": [
         {
@@ -87,12 +87,12 @@
       "dest": "Hatyai • Songkhla",
       "days": "4D2N",
       "price": 429,
-      "promo": 419,
-      "promoUntil": "2026-10-23",
+      "promo": 0,
+      "promoUntil": "",
       "material": "https://drive.google.com/drive/folders/1YDJzgsXoz5ACOBZEDPtKoa8tkfeF3_Eo?usp=drive_link",
       "image": "https://i.postimg.cc/0N1Rb4xt/Chat-GPT-Image-Sep-23-2026-07-57-31-PM.png",
       "commission": 50,
-      "deposit": "",
+      "deposit": "200",
       "active": true,
       "deps": [
         {
@@ -160,7 +160,7 @@
       "material": "https://drive.google.com/drive/folders/1sC_GjNAkgMlJ0DRL_p-lYNClAf1V_ykB?usp=drive_link",
       "image": "https://i.postimg.cc/nhb9s2PY/Chat-GPT-Image-Sep-24-2026-05-35-51-PM.png",
       "commission": 27,
-      "deposit": "",
+      "deposit": "500",
       "active": true,
       "deps": [],
       "tourCode": "HTYP4D2N"
@@ -177,7 +177,7 @@
       "material": "https://drive.google.com/drive/folders/19pdw4b3U0AZnt8nFw7oTpBJ2rtTFdzW4?usp=drive_link",
       "image": "https://i.postimg.cc/gJ9S3rhy/Chat-GPT-Image-Sep-30-2026-09-49-42-PM.png",
       "commission": 100,
-      "deposit": "",
+      "deposit": "1000",
       "active": true,
       "deps": [
         {
