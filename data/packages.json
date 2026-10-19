@@ -1365,6 +1365,48 @@
       ],
       "deps": [],
       "tourCode": "SFRDY"
+    },
+    {
+      "id": "teu3245",
+      "name": "LANGKAWI-3D2N(MIN 12PAX)",
+      "dir": "inbound",
+      "dest": "KLANG VALLEY • KUALA PERLIS• LANGKAWI",
+      "days": "3D2N",
+      "price": 900,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/1CxqHy4uAYrAC0_osC83iAwUtfciusUMn?usp=drive_link",
+      "image": "https://i.postimg.cc/C1WzvYwX/Langkawi-eagles-and-cable-car.png",
+      "itin": [
+        "Day 1 Klang → Kuala Perlis → Langkawi (No meals): Langkawi – Hotel to be confirmed (Overnight departure and city tour) Depart from Klang at 23:00 the night before; rest stop along the highway; arrive at Kuala Perlis for breakfast on own and ferry check-in. Take the ferry to Langkawi; Eagle Square (Dataran Lang); Haji Ismail Group (HIG); lunch and prayer stop; Langkawi Craft Complex; Pantai Cenang. Transfer to the hotel for check-in. Dinner on own.",
+        "Day 2 Langkawi (B): Langkawi – Hotel to be confirmed (Island hopping, SkyCab and SkyBridge included) Breakfast at the hotel. Four-hour island hopping tour covering Pulau Dayang Bunting, eagle watching and Pulau Beras Basah; lunch and prayer stop; Oriental Village; Langkawi SkyCab cable car; SkyBridge. Return to the hotel. Dinner on own.",
+        "Day 3 Langkawi → Kuala Perlis → Klang (B): (Return ferry and overland transfer; tour ends) Breakfast at the hotel and check out. Duty-free shopping in Kuah; transfer to the ferry terminal for the return ferry to Kuala Perlis. Lunch and prayer stop; continue by van to Klang. Estimated arrival between 21:30 and 23:00.",
+        "--------------------------------------------------"
+      ],
+      "inc": [
+        "2 nights hotel accommodation with daily breakfast",
+        "6 twin/double rooms for 12 participants",
+        "1 private room for the driver",
+        "Return RORO ferry for the van",
+        "Passenger ferry tickets as costed",
+        "4-hour island hopping tour",
+        "Langkawi SkyCab cable car ticket",
+        "SkyBridge entrance ticket",
+        "Sightseeing as stated in the itinerary",
+        "Van transportation"
+      ],
+      "exc": [
+        "Lunch and dinner",
+        "Breakfast during the overnight journey",
+        "Fuel, toll and parking charges",
+        "Driver allowance and meals",
+        "Personal expenses and shopping",
+        "Travel insurance",
+        "Optional activities",
+        "Any other items not mentioned under Inclusions"
+      ],
+      "deps": [],
+      "tourCode": "LNGKP3D2N"
     }
   ],
   "featuredPush": [

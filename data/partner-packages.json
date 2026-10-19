@@ -807,6 +807,23 @@
       "active": true,
       "deps": [],
       "tourCode": "SFRDY"
+    },
+    {
+      "id": "teu3245",
+      "name": "LANGKAWI-3D2N(MIN 12PAX)",
+      "dir": "inbound",
+      "dest": "KLANG VALLEY • KUALA PERLIS• LANGKAWI",
+      "days": "3D2N",
+      "price": 900,
+      "promo": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/1CxqHy4uAYrAC0_osC83iAwUtfciusUMn?usp=drive_link",
+      "image": "https://i.postimg.cc/C1WzvYwX/Langkawi-eagles-and-cable-car.png",
+      "commission": 25,
+      "deposit": "200",
+      "active": true,
+      "deps": [],
+      "tourCode": "LNGKP3D2N"
     }
   ],
   "featuredPush": [
