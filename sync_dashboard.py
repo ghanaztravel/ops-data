@@ -105,6 +105,8 @@ def build_customer_trips(trips, deps, sales):
         trip_deps = build_trip_deps(t["id"], deps, sales)
         price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
         promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
+        child_my, child_nonmy = tier_num(t, "priceChildMY", "priceChildNonMY")
+        senior_my, senior_nonmy = tier_num(t, "priceSeniorMY", "priceSeniorNonMY")
         o = {
             "id": t["id"],
             "name": t["name"],
@@ -113,6 +115,10 @@ def build_customer_trips(trips, deps, sales):
             "days": t.get("days") or "",
             "priceMY": price_my,
             "priceNonMY": price_nonmy,
+            "priceChildMY": child_my,
+            "priceChildNonMY": child_nonmy,
+            "priceSeniorMY": senior_my,
+            "priceSeniorNonMY": senior_nonmy,
             "promoMY": promo_my,
             "promoNonMY": promo_nonmy,
             "promoUntil": t.get("promoUntil") or "",
@@ -140,6 +146,8 @@ def build_partner_trips(trips, deps, sales, prev_trips):
         price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
         promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
         comm_my, comm_nonmy = tier_num(t, "commissionMY", "commissionNonMY", "commission")
+        child_my, child_nonmy = tier_num(t, "priceChildMY", "priceChildNonMY")
+        senior_my, senior_nonmy = tier_num(t, "priceSeniorMY", "priceSeniorNonMY")
         o = {
             "id": t["id"],
             "name": t["name"],
@@ -148,6 +156,10 @@ def build_partner_trips(trips, deps, sales, prev_trips):
             "days": t.get("days") or "",
             "priceMY": price_my,
             "priceNonMY": price_nonmy,
+            "priceChildMY": child_my,
+            "priceChildNonMY": child_nonmy,
+            "priceSeniorMY": senior_my,
+            "priceSeniorNonMY": senior_nonmy,
             "promoMY": promo_my,
             "promoNonMY": promo_nonmy,
             "promoUntil": t.get("promoUntil") or "",
