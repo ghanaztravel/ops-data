@@ -48,6 +48,18 @@ def sold_for(dep_id, sales, skip_id=None):
     return total
 
 
+def tier_num(t, key_my, key_nonmy, legacy_key=None):
+    """Read a MY/NonMY paired field, falling back to a shared legacy field
+    (e.g. old 'price') for trips the dashboard hasn't migrated in-place yet."""
+    my = t.get(key_my)
+    nonmy = t.get(key_nonmy)
+    if my is None and legacy_key is not None:
+        my = t.get(legacy_key)
+    if nonmy is None and legacy_key is not None:
+        nonmy = t.get(legacy_key)
+    return num(my), num(nonmy)
+
+
 def seat_state(dep, sales):
     if dep.get("closed"):
         return "full"
@@ -91,14 +103,18 @@ def build_customer_trips(trips, deps, sales):
         if t.get("active") is False:
             continue
         trip_deps = build_trip_deps(t["id"], deps, sales)
+        price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
+        promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
         o = {
             "id": t["id"],
             "name": t["name"],
             "dir": t.get("dir", ""),
             "dest": t.get("dest") or "",
             "days": t.get("days") or "",
-            "price": num(t.get("price")),
-            "promo": num(t.get("promo")) or 0,
+            "priceMY": price_my,
+            "priceNonMY": price_nonmy,
+            "promoMY": promo_my,
+            "promoNonMY": promo_nonmy,
             "promoUntil": t.get("promoUntil") or "",
             "material": t.get("material") or "",
             "image": t.get("image") or "",
@@ -121,18 +137,24 @@ def build_partner_trips(trips, deps, sales, prev_trips):
     # longer consulted for commission; kept as a parameter for compatibility.
     out = []
     for t in trips:
+        price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
+        promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
+        comm_my, comm_nonmy = tier_num(t, "commissionMY", "commissionNonMY", "commission")
         o = {
             "id": t["id"],
             "name": t["name"],
             "dir": t.get("dir", ""),
             "dest": t.get("dest") or "",
             "days": t.get("days") or "",
-            "price": num(t.get("price")),
-            "promo": num(t.get("promo")) or 0,
+            "priceMY": price_my,
+            "priceNonMY": price_nonmy,
+            "promoMY": promo_my,
+            "promoNonMY": promo_nonmy,
             "promoUntil": t.get("promoUntil") or "",
             "material": t.get("material") or "",
             "image": t.get("image") or "",
-            "commission": num(t.get("commission")) or 0,
+            "commissionMY": comm_my,
+            "commissionNonMY": comm_nonmy,
             "deposit": (t.get("deposit") or "").strip(),
             "active": t.get("active") is not False,
             "deps": build_trip_deps(t["id"], deps, sales),
