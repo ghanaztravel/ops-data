@@ -178,6 +178,22 @@ def build_partner_trips(trips, deps, sales, prev_trips):
     return out
 
 
+def build_incentive(inc):
+    """The office's agent giveaway/incentive banner (e.g. "hit 10 pax, win a
+    free stay in Singapore"). Partner-portal-only — never sent to the
+    customer feed. Auto-expires once its "until" date has passed."""
+    if not inc or not inc.get("target") or not inc.get("reward"):
+        return None
+    until = (inc.get("until") or "").strip()
+    if until and until < today_str():
+        return None
+    return {
+        "target": num(inc.get("target")),
+        "reward": (inc.get("reward") or "").strip(),
+        "until": until,
+    }
+
+
 def build_featured_push(fp_list, trips):
     """Every package+date NAZ picked in the dashboard's "Push" tab (any number).
     Carried into the partner feed so agents can copy/paste each one themselves
@@ -244,6 +260,7 @@ def main():
     part_before = json.dumps(part, sort_keys=True)
     part["trips"] = build_partner_trips(trips, deps, sales, part.get("trips"))
     part["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
+    part["incentive"] = build_incentive(dash.get("incentive"))
     part_after = json.dumps(part, sort_keys=True)
     if part_before != part_after:
         changed = True
