@@ -179,19 +179,25 @@ def build_partner_trips(trips, deps, sales, prev_trips):
 
 
 def build_incentive(inc):
-    """The office's agent giveaway/incentive banner (e.g. "hit 10 pax, win a
-    free stay in Singapore"). Partner-portal-only — never sent to the
-    customer feed. Auto-expires once its "until" date has passed."""
-    if not inc or not inc.get("target") or not inc.get("reward"):
+    """The office's agent incentive ladder (e.g. "1 pax: RM50 bonus, 5 pax:
+    RM150 bonus, 10 pax: free stay in Singapore"). Partner-portal-only —
+    never sent to the customer feed. Auto-expires once its "until" date has
+    passed. inc["tiers"] is a list of {pax, reward}, sorted ascending by pax."""
+    if not inc or not inc.get("tiers"):
         return None
     until = (inc.get("until") or "").strip()
     if until and until < today_str():
         return None
-    return {
-        "target": num(inc.get("target")),
-        "reward": (inc.get("reward") or "").strip(),
-        "until": until,
-    }
+    tiers = []
+    for t in inc.get("tiers") or []:
+        pax = num(t.get("pax"))
+        reward = (t.get("reward") or "").strip()
+        if pax > 0 and reward:
+            tiers.append({"pax": pax, "reward": reward})
+    if not tiers:
+        return None
+    tiers.sort(key=lambda t: t["pax"])
+    return {"tiers": tiers, "until": until}
 
 
 def build_featured_push(fp_list, trips):
