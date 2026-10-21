@@ -178,11 +178,16 @@ def build_partner_trips(trips, deps, sales, prev_trips):
     return out
 
 
+INCENTIVE_ICONS = {"\U0001F381", "\U0001F4B0", "\U0001F39F️", "✈️",
+                    "\U0001F3E8", "\U0001F6CD️", "\U0001F3C6"}  # gift/cash/voucher/trip/hotel/shopping/trophy
+
+
 def build_incentive(inc):
     """The office's agent incentive ladder (e.g. "1 pax: RM50 bonus, 5 pax:
     RM150 bonus, 10 pax: free stay in Singapore"). Partner-portal-only —
     never sent to the customer feed. Auto-expires once its "until" date has
-    passed. inc["tiers"] is a list of {pax, reward}, sorted ascending by pax."""
+    passed. inc["tiers"] is a list of {pax, reward, icon}, sorted ascending
+    by pax; icon falls back to the gift emoji if missing/unrecognised."""
     if not inc or not inc.get("tiers"):
         return None
     until = (inc.get("until") or "").strip()
@@ -192,8 +197,11 @@ def build_incentive(inc):
     for t in inc.get("tiers") or []:
         pax = num(t.get("pax"))
         reward = (t.get("reward") or "").strip()
+        icon = (t.get("icon") or "").strip()
+        if icon not in INCENTIVE_ICONS:
+            icon = "\U0001F381"
         if pax > 0 and reward:
-            tiers.append({"pax": pax, "reward": reward})
+            tiers.append({"pax": pax, "reward": reward, "icon": icon})
     if not tiers:
         return None
     tiers.sort(key=lambda t: t["pax"])
