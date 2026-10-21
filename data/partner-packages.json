@@ -1044,12 +1044,12 @@
     "tiers": [
       {
         "pax": 10,
-        "reward": "RM100 Voucher",
+        "reward": "RM100 Cash Voucher",
         "icon": "🎁"
       },
       {
         "pax": 15,
-        "reward": "RM200",
+        "reward": "RM150 Cash Voucher",
         "icon": "🎟️"
       },
       {
@@ -1059,7 +1059,7 @@
       },
       {
         "pax": 30,
-        "reward": "Flight Ticket",
+        "reward": "Flight Ticket Voucher",
         "icon": "✈️"
       }
     ],
