@@ -124,19 +124,16 @@
       "active": true,
       "deps": [
         {
-          "date": "2026-10-23",
-          "st": "open",
-          "note": ""
-        },
-        {
           "date": "2026-10-24",
-          "st": "open",
-          "note": ""
+          "st": "full",
+          "note": "",
+          "left": 40
         },
         {
           "date": "2026-10-30",
-          "st": "open",
-          "note": ""
+          "st": "full",
+          "note": "",
+          "left": 40
         },
         {
           "date": "2026-11-06",
@@ -155,16 +152,6 @@
         },
         {
           "date": "2026-12-04",
-          "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2026-12-10",
-          "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2026-12-24",
           "st": "open",
           "note": ""
         },
@@ -986,7 +973,7 @@
       "dest": "BANGKOK",
       "days": "5D4N",
       "priceMY": 2099,
-      "priceNonMY": 2090,
+      "priceNonMY": 2299,
       "priceChildMY": 0,
       "priceChildNonMY": 0,
       "priceSeniorMY": 0,
@@ -994,8 +981,8 @@
       "promoMY": 0,
       "promoNonMY": 0,
       "promoUntil": "",
-      "material": "",
-      "image": "",
+      "material": "https://drive.google.com/drive/folders/17PdXwnLNhqcPpBBAv1r8fToDG0fsI0Eg?usp=drive_link",
+      "image": "https://i.postimg.cc/dVv793dM/Bangkok-Songkran-Street-Celebration.png",
       "commissionMY": 0,
       "commissionNonMY": 0,
       "deposit": "1000",
