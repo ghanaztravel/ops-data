@@ -210,11 +210,6 @@
       "active": true,
       "deps": [
         {
-          "date": "2026-11-18",
-          "st": "open",
-          "note": ""
-        },
-        {
           "date": "2027-01-03",
           "st": "open",
           "note": ""
@@ -261,12 +256,17 @@
       "active": true,
       "deps": [
         {
-          "date": "2026-12-30",
+          "date": "2027-01-02",
           "st": "open",
-          "note": "School holiday"
+          "note": ""
         },
         {
-          "date": "2027-01-02",
+          "date": "2027-01-04",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-05",
           "st": "open",
           "note": ""
         },
@@ -287,6 +287,11 @@
         },
         {
           "date": "2027-04-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-04",
           "st": "open",
           "note": ""
         },
@@ -384,7 +389,17 @@
       "active": true,
       "deps": [
         {
-          "date": "2027-03-17",
+          "date": "2027-04-28",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-13",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-06-02",
           "st": "open",
           "note": ""
         }
@@ -439,8 +454,8 @@
       "country": "Korea",
       "dest": "Seoul • Incheon • Nami Island",
       "days": "6D4N",
-      "priceMY": 3580,
-      "priceNonMY": 3580,
+      "priceMY": 3980,
+      "priceNonMY": 3980,
       "priceChildMY": 0,
       "priceChildNonMY": 0,
       "priceSeniorMY": 0,
@@ -529,6 +544,11 @@
       "deps": [
         {
           "date": "2026-11-09",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2026-11-25",
           "st": "open",
           "note": ""
         },
