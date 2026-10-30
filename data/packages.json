@@ -1519,7 +1519,7 @@
       "name": "LANGKAWI-3D2N(MIN 12PAX)",
       "dir": "inbound",
       "country": "Malaysia",
-      "dest": "KLANG VALLEY • KUALA PERLIS• LANGKAWI",
+      "dest": "KLANG VALLEY • KUALA PERLIS • LANGKAWI",
       "days": "3D2N",
       "priceMY": 900,
       "priceNonMY": 900,
@@ -1559,6 +1559,99 @@
       ],
       "deps": [],
       "tourCode": "LNGKP3D2N"
+    },
+    {
+      "id": "tll0sxp",
+      "name": "BANGKOK SONGKRAN-5D4N",
+      "dir": "outbound",
+      "country": "Thailand",
+      "dest": "BANGKOK",
+      "days": "5D4N",
+      "priceMY": 2099,
+      "priceNonMY": 2299,
+      "priceChildMY": 0,
+      "priceChildNonMY": 0,
+      "priceSeniorMY": 0,
+      "priceSeniorNonMY": 0,
+      "promoMY": 0,
+      "promoNonMY": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/17PdXwnLNhqcPpBBAv1r8fToDG0fsI0Eg?usp=drive_link",
+      "image": "https://i.postimg.cc/dVv793dM/Bangkok-Songkran-Street-Celebration.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Bangkok (MOB): Bangkok – Hotel to be confirmed (Arrival day) Fly from Kuala Lumpur to Bangkok. Meet upon arrival and transfer to the hotel for check-in. Free time to explore nearby shops, cafés and local dining spots. Overnight in Bangkok.",
+        "Day 2 Bangkok (No meals): Bangkok – Hotel to be confirmed (Songkran celebration; free and easy) Experience the Songkran celebrations at your own pace, subject to the official festival schedule. Meals and local transportation on own. Overnight in Bangkok.",
+        "Day 3 Bangkok (No meals): Bangkok – Hotel to be confirmed (Shopping and leisure; free and easy) Spend the day shopping, café hopping or exploring the city independently. Suggested shopping stops: Siam Paragon; CentralWorld; Platinum Fashion Mall. Meals and local transportation on own. Overnight in Bangkok.",
+        "Day 4 Bangkok (No meals): Bangkok – Hotel to be confirmed (Optional sightseeing; free and easy) Enjoy another full day at leisure. Explore local markets; relax with a Thai massage; visit ICONSIAM or the Chao Phraya riverside independently. Optional sightseeing can be arranged at additional cost. Meals and local transportation on own. Overnight in Bangkok.",
+        "Day 5 Bangkok → Kuala Lumpur (MOB): (Departure transfer according to flight schedule; tour ends) Free time until hotel check-out. Transfer to the airport for your return flight to Kuala Lumpur."
+      ],
+      "inc": [
+        "Return flight tickets",
+        "4 nights’ hotel accommodation on a twin-sharing basis.",
+        "Return airport–hotel transfers.",
+        "Travel insurance.",
+        "Tour Leader."
+      ],
+      "exc": [
+        "Meals.",
+        "Transport during free and easy activities.",
+        "Optional tours, entrance tickets and personal expenses."
+      ],
+      "deps": [
+        {
+          "date": "2027-04-12",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "BNGKSK5D4N"
+    },
+    {
+      "id": "tyu6198",
+      "name": "GUILIN–6D5N",
+      "dir": "outbound",
+      "country": "China",
+      "dest": "LONGSHENG • YANGSHUO",
+      "days": "6D5N",
+      "priceMY": 3599,
+      "priceNonMY": 3599,
+      "priceChildMY": 3399,
+      "priceChildNonMY": 3399,
+      "priceSeniorMY": 3599,
+      "priceSeniorNonMY": 3599,
+      "promoMY": 3499,
+      "promoNonMY": 3499,
+      "promoUntil": "2026-12-01",
+      "material": "https://drive.google.com/drive/folders/17MzlqwTafUMVKvMJjITeKwr4ivecP9zx?usp=drive_link",
+      "image": "https://i.postimg.cc/Bbtdh3hs/Karst-River-Valley-Paradise.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Guilin (MOB/D): Guilin – Minfeng Hotel or similar (Arrival day) Fly from Kuala Lumpur to Guilin. Visit Rongshan Lake Scenic Area, featuring ancient banyan trees, Ancient South Gate and Nine-Bend Bridge; Elephant Trunk Hill; view the Sun-Moon Twin Pagodas from a distance. Transfer to the hotel for check-in. Overnight in Guilin.",
+        "Day 2 Guilin → Longsheng → Guilin (B/L): Guilin – Minfeng Hotel or similar (Buni Terraces and cultural experiences) Travel to Longsheng by coach, approximately 2.5 hours. Visit Buni Terraces; experience a traditional beam-raising ceremony, glutinous rice cake making and a welcome bamboo pole dance. Return to Guilin; free time for shopping at Wanda Plaza. Dinner on own. Overnight in Guilin.",
+        "Day 3 Guilin → Yangshuo (B/L): Yangshuo – Fairfield by Marriott Hotel or similar (Seasonal fruit picking and countryside experience) Travel to Yangshuo, approximately 2 hours. Visit an ecological orchard for seasonal fruit picking and tasting; enjoy a vintage sidecar ride through the Yulong River countryside, including aerial photography; explore Yangshuo West Street. Dinner on own. Overnight in Yangshuo.",
+        "Day 4 Yangshuo (B/L/D): Yangshuo – Fairfield by Marriott Hotel or similar (Hot air balloon and bamboo raft included) Visit Maling Drum Village and enjoy the Dong Grand Chorus; experience a tethered hot air balloon flight over the Ten-Mile Gallery with 360° aerial photography; enjoy a shared bamboo raft cruise on the Yulong River. Overnight in Yangshuo.",
+        "Day 5 Yangshuo → Guilin (B/L/D): Guilin – Minfeng Hotel or similar (Royal heritage and osmanthus culture) Return to Guilin, approximately 2 hours. Visit Jingjiang Prince’s Mansion, including a traditional Fu rubbing activity and an ancient imperial examination simulation; explore Osmanthus Commune with tea and honey tasting. Overnight in Guilin.",
+        "Day 6 Guilin → Kuala Lumpur (B/L/MOB): (Departure transfer according to flight schedule; tour ends) Breakfast and lunch before transferring to Guilin Liangjiang International Airport for your return flight to Kuala Lumpur."
+      ],
+      "inc": [
+        "Return Flight Tickets",
+        "Meals on board and meals as stated in the itinerary",
+        "20kg baggage allowance",
+        "Tips for the driver and tour guide",
+        "Tethered hot air balloon experience"
+      ],
+      "exc": [
+        "Optional tours and personal expenses",
+        "Travel insurance",
+        "Tourism tax and visa fees, if applicable"
+      ],
+      "deps": [
+        {
+          "date": "2026-12-22",
+          "st": "open",
+          "note": ""
+        }
+      ],
+      "tourCode": "GLN6D5N"
     }
   ],
   "featuredPush": [
@@ -1568,13 +1661,6 @@
       "depDate": "2027-05-22",
       "caption": "✈️ YUNNAN-9D7N(MUSLIM FRIENDLY)\n9D7N • Kunming • Chuxiong • Dali • Lijiang\n💰 Was RM 5,290, now RM 4,890!\nPromo ends 31 Jan 2027 — don’t miss out!\n📅 Departure: 22 May 2027\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-10-12T14:11:57.335Z"
-    },
-    {
-      "tripId": "ttp6frg",
-      "tripName": "CLASSIC HATYAI-4D2N",
-      "depDate": "2026-10-23",
-      "caption": "✈️ CLASSIC HATYAI-4D2N\n4D2N • Hatyai • Songkhla\n💰 Was RM 429, now RM 419!\nPromo ends 23 Oct 2026 — don’t miss out!\n📅 Departure: 23 Oct 2026\n📍 Book now: https://packages.ghanaz.com.my",
-      "savedAt": "2026-10-12T15:31:10.668Z"
     },
     {
       "tripId": "tmeastr",
@@ -1589,6 +1675,13 @@
       "depDate": "",
       "caption": "✈️ YUNNAN-9D7N(MUSLIM FRIENDLY)\n9D7N • Kunming • Chuxiong • Dali • Lijiang\n💰 Price: Was RM 5,290, now RM 4,890!\nPromo ends 31 Dec 2026 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-10-21T12:33:23.377Z"
+    },
+    {
+      "tripId": "tyu6198",
+      "tripName": "GUILIN–6D5N",
+      "depDate": "2026-12-22",
+      "caption": "✈️ GUILIN–6D5N\n6D5N • LONGSHENG • YANGSHUO\n💰 Price: Was RM 3,599, now RM 3,499!\nPromo ends 1 Dec 2026 — don’t miss out!\n📅 Departure: 22 Dec 2026\n📍 Book now: https://packages.ghanaz.com.my",
+      "savedAt": "2026-10-30T03:27:19.153Z"
     }
   ]
 }
