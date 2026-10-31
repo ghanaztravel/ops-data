@@ -78,7 +78,7 @@ def tour_code(t):
     return (t.get("tourCode") or "").strip()
 
 
-def build_trip_deps(trip_id, deps, sales):
+def build_trip_deps(trip_id, deps, sales, show_left=True):
     now = today_str()
     trip_deps = []
     for d in deps:
@@ -92,8 +92,11 @@ def build_trip_deps(trip_id, deps, sales):
             if num(d.get(k)) > 0:
                 entry[k] = num(d.get(k))
         # Only reveal a seat count once it's scarce (low/full) — viewers see
-        # "available" with no number when there's no urgency to show.
-        if st != "open":
+        # "available" with no number when there's no urgency to show. The
+        # public customer feed never carries the number (show_left=False): the
+        # customer page only shows an "Almost full" signal, and exact seats are
+        # confirmed by the freelance agent / office. The partner feed keeps it.
+        if st != "open" and show_left:
             seats = num(d.get("seats"))
             sold = sold_for(d.get("id"), sales)
             entry["left"] = max(0, int(seats - sold))
@@ -107,7 +110,7 @@ def build_customer_trips(trips, deps, sales):
     for t in trips:
         if t.get("active") is False:
             continue
-        trip_deps = build_trip_deps(t["id"], deps, sales)
+        trip_deps = build_trip_deps(t["id"], deps, sales, show_left=False)
         price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
         promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
         child_my, child_nonmy = tier_num(t, "priceChildMY", "priceChildNonMY")
