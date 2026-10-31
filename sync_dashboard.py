@@ -86,6 +86,11 @@ def build_trip_deps(trip_id, deps, sales):
             continue
         st = seat_state(d, sales)
         entry = {"date": d["date"], "st": st, "note": d.get("note") or ""}
+        # Optional price for this specific departure (flight costs differ by
+        # date). Only the selling price is ever copied — never the date's cost.
+        for k in ("priceMY", "priceNonMY"):
+            if num(d.get(k)) > 0:
+                entry[k] = num(d.get(k))
         # Only reveal a seat count once it's scarce (low/full) — viewers see
         # "available" with no number when there's no urgency to show.
         if st != "open":
