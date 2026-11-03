@@ -78,7 +78,33 @@ def tour_code(t):
     return (t.get("tourCode") or "").strip()
 
 
-def build_trip_deps(trip_id, deps, sales, show_left=True):
+def clean_rooms(t):
+    """Optional room options for resort-style packages: [{label, wd, we}].
+    Selling prices only (per pax, Malaysians); never any cost."""
+    out = []
+    for r in (t.get("rooms") or [])[:12]:
+        label = str(r.get("label") or "").strip()[:60]
+        wd = num(r.get("wd"))
+        we = num(r.get("we")) or wd
+        if label and wd > 0:
+            out.append({"label": label, "wd": wd, "we": we})
+    return out
+
+
+def dep_rate(d):
+    """weekday/weekend rate for a departure: explicit choice wins, otherwise
+    Friday and Saturday count as weekend (Terengganu-style weekend)."""
+    if d.get("rate") in ("wd", "we"):
+        return d["rate"]
+    try:
+        import datetime as _dt
+        wd = _dt.date.fromisoformat(d["date"]).weekday()
+        return "we" if wd in (4, 5) else "wd"
+    except Exception:
+        return "wd"
+
+
+def build_trip_deps(trip_id, deps, sales, show_left=True, with_rate=False):
     now = today_str()
     trip_deps = []
     for d in deps:
@@ -86,6 +112,8 @@ def build_trip_deps(trip_id, deps, sales, show_left=True):
             continue
         st = seat_state(d, sales)
         entry = {"date": d["date"], "st": st, "note": d.get("note") or ""}
+        if with_rate:
+            entry["rate"] = dep_rate(d)
         # Optional price for this specific departure (flight costs differ by
         # date). Only the selling price is ever copied — never the date's cost.
         for k in ("priceMY", "priceNonMY"):
@@ -110,7 +138,8 @@ def build_customer_trips(trips, deps, sales):
     for t in trips:
         if t.get("active") is False:
             continue
-        trip_deps = build_trip_deps(t["id"], deps, sales, show_left=False)
+        rooms = clean_rooms(t)
+        trip_deps = build_trip_deps(t["id"], deps, sales, show_left=False, with_rate=bool(rooms))
         price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
         promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
         child_my, child_nonmy = tier_num(t, "priceChildMY", "priceChildNonMY")
@@ -138,6 +167,9 @@ def build_customer_trips(trips, deps, sales):
             "exc": t.get("exc") or [],
             "deps": trip_deps,
         }
+        if rooms:
+            o["rooms"] = rooms
+            o["priceMY"] = min(r[k] for r in rooms for k in ("wd", "we"))
         tc = tour_code(t)
         if tc:
             o["tourCode"] = tc
@@ -179,8 +211,12 @@ def build_partner_trips(trips, deps, sales, prev_trips):
             "commissionNonMY": comm_nonmy,
             "deposit": (t.get("deposit") or "").strip(),
             "active": t.get("active") is not False,
-            "deps": build_trip_deps(t["id"], deps, sales),
+            "deps": build_trip_deps(t["id"], deps, sales, with_rate=bool(clean_rooms(t))),
         }
+        rooms = clean_rooms(t)
+        if rooms:
+            o["rooms"] = rooms
+            o["priceMY"] = min(r[k] for r in rooms for k in ("wd", "we"))
         tc = tour_code(t)
         if tc:
             o["tourCode"] = tc
