@@ -1014,8 +1014,8 @@
       "promoUntil": "",
       "material": "https://drive.google.com/drive/folders/17PdXwnLNhqcPpBBAv1r8fToDG0fsI0Eg?usp=drive_link",
       "image": "https://i.postimg.cc/dVv793dM/Bangkok-Songkran-Street-Celebration.png",
-      "commissionMY": 0,
-      "commissionNonMY": 0,
+      "commissionMY": 50,
+      "commissionNonMY": 50,
       "deposit": "1000",
       "active": true,
       "deps": [
