@@ -1644,6 +1644,75 @@
         }
       ],
       "tourCode": "GLN6D5N"
+    },
+    {
+      "id": "t67ivpy",
+      "name": "REDANG 3D2N (4-STAR RESORT)",
+      "dir": "inbound",
+      "country": "Malaysia",
+      "dest": "Redang Island • Terengganu",
+      "days": "3D2N",
+      "priceMY": 660,
+      "priceNonMY": 660,
+      "priceChildMY": 0,
+      "priceChildNonMY": 0,
+      "priceSeniorMY": 660,
+      "priceSeniorNonMY": 0,
+      "promoMY": 0,
+      "promoNonMY": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/13V9oT1Pb4u1qgrd2mssMXxOY8T0FP7pG?usp=drive_link",
+      "image": "https://i.postimg.cc/ncwnKvBV/Redang-snorkeling-in-turquoise-waters.png",
+      "itin": [
+        "Day 1 Merang → Redang (L/D/Tea): Boat from Merang Jetty 08:00–12:00, check-in and briefing, lunch, Snorkelling #1, afternoon tea, dinner or BBQ",
+        "Day 2 Redang (B/L/D/Tea): Breakfast, Snorkelling #2, lunch, Snorkelling #3, afternoon tea, dinner.",
+        "Day 3 Redang → Merang (B): Breakfast, check-out and boat to the mainland.",
+        "--------------------------------------------------------",
+        "Term & Conditions.                                                                                                                            Boat schedule is subject to weather.                                                                                           Rooms are run-of-house, subject to availability.                                                                        Balance is due 1 month before travel.                                                                                                           Payments are non-refundable."
+      ],
+      "inc": [
+        "Return boat transfers: Merang JettyRedang Island – Merang Jetty",
+        "2 nights' accommodation in an air-conditioned room with attached bathroom and safety box",
+        "Fullboard meals: 2 breakfasts, 2 lunches, 2 afternoon teas, 1 dinner and 1 BBQ dinner",
+        "3 snorkelling trips",
+        "Free-flow coffee and tea at the canteen",
+        "Use of resort facilities, including beach volleyball and board games",
+        "8% SST"
+      ],
+      "exc": [
+        "Tourism Tax (TTX): RM10 per room per night",
+        "Marine Park Conservation Fee",
+        "Merang Jetty Fee: RM5 per person",
+        "Snorkelling equipment rental",
+        "Optional travel insurance: RM25 per person",
+        "Boat transfers outside scheduled timings",
+        "Discovery Scuba Diving and other diving activities",
+        "Land transfers, available as an optional add-on"
+      ],
+      "deps": [],
+      "rooms": [
+        {
+          "label": "Deluxe Sea View, Triple",
+          "wd": 735,
+          "we": 790
+        },
+        {
+          "label": "Deluxe Sea View, Twin",
+          "wd": 760,
+          "we": 815
+        },
+        {
+          "label": "Deluxe Room, Triple",
+          "wd": 690,
+          "we": 790
+        },
+        {
+          "label": "Deluxe Room, Twin",
+          "wd": 660,
+          "we": 715
+        }
+      ],
+      "tourCode": "RDNG3D2N"
     }
   ],
   "featuredPush": [

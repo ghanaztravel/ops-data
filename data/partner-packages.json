@@ -1057,6 +1057,53 @@
         }
       ],
       "tourCode": "GLN6D5N"
+    },
+    {
+      "id": "t67ivpy",
+      "name": "REDANG 3D2N (4-STAR RESORT)",
+      "dir": "inbound",
+      "country": "Malaysia",
+      "dest": "Redang Island • Terengganu",
+      "days": "3D2N",
+      "priceMY": 660,
+      "priceNonMY": 660,
+      "priceChildMY": 0,
+      "priceChildNonMY": 0,
+      "priceSeniorMY": 660,
+      "priceSeniorNonMY": 0,
+      "promoMY": 0,
+      "promoNonMY": 0,
+      "promoUntil": "",
+      "material": "https://drive.google.com/drive/folders/13V9oT1Pb4u1qgrd2mssMXxOY8T0FP7pG?usp=drive_link",
+      "image": "https://i.postimg.cc/ncwnKvBV/Redang-snorkeling-in-turquoise-waters.png",
+      "commissionMY": 20,
+      "commissionNonMY": 20,
+      "deposit": "300",
+      "active": true,
+      "deps": [],
+      "rooms": [
+        {
+          "label": "Deluxe Sea View, Triple",
+          "wd": 735,
+          "we": 790
+        },
+        {
+          "label": "Deluxe Sea View, Twin",
+          "wd": 760,
+          "we": 815
+        },
+        {
+          "label": "Deluxe Room, Triple",
+          "wd": 690,
+          "we": 790
+        },
+        {
+          "label": "Deluxe Room, Twin",
+          "wd": 660,
+          "we": 715
+        }
+      ],
+      "tourCode": "RDNG3D2N"
     }
   ],
   "featuredPush": [
