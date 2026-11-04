@@ -162,8 +162,8 @@
       "country": "Thailand",
       "dest": "Hatyai • Songkhla",
       "days": "4D2N",
-      "priceMY": 705,
-      "priceNonMY": 705,
+      "priceMY": 769,
+      "priceNonMY": 769,
       "priceChildMY": 0,
       "priceChildNonMY": 0,
       "priceSeniorMY": 0,
@@ -1066,14 +1066,14 @@
       "dest": "Redang Island • Terengganu",
       "days": "3D2N",
       "priceMY": 660,
-      "priceNonMY": 660,
+      "priceNonMY": 769,
       "priceChildMY": 0,
       "priceChildNonMY": 0,
-      "priceSeniorMY": 660,
+      "priceSeniorMY": 0,
       "priceSeniorNonMY": 0,
-      "promoMY": 0,
-      "promoNonMY": 0,
-      "promoUntil": "",
+      "promoMY": 660,
+      "promoNonMY": 660,
+      "promoUntil": "2027-01-31",
       "material": "https://drive.google.com/drive/folders/13V9oT1Pb4u1qgrd2mssMXxOY8T0FP7pG?usp=drive_link",
       "image": "https://i.postimg.cc/ncwnKvBV/Redang-snorkeling-in-turquoise-waters.png",
       "commissionMY": 20,
@@ -1115,13 +1115,6 @@
       "savedAt": "2026-10-12T14:11:57.335Z"
     },
     {
-      "tripId": "tmeastr",
-      "tripName": "CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N",
-      "depDate": "",
-      "caption": "✈️ CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N\n4D2N • Hatyai • Songkhla\n💰 Was RM 705, now RM 699!\nPromo ends 12 Nov 2026 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
-      "savedAt": "2026-10-13T02:40:46.761Z"
-    },
-    {
       "tripId": "t1",
       "tripName": "YUNNAN-9D7N(MUSLIM FRIENDLY)",
       "depDate": "",
@@ -1134,6 +1127,20 @@
       "depDate": "2026-12-22",
       "caption": "✈️ GUILIN–6D5N\n6D5N • LONGSHENG • YANGSHUO\n💰 Price: Was RM 3,599, now RM 3,499!\nPromo ends 1 Dec 2026 — don’t miss out!\n📅 Departure: 22 Dec 2026\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-10-30T03:27:19.153Z"
+    },
+    {
+      "tripId": "t67ivpy",
+      "tripName": "REDANG 3D2N (4-STAR RESORT)",
+      "depDate": "",
+      "caption": "✈️ REDANG 3D2N (4-STAR RESORT)\n3D2N • Redang Island • Terengganu\n💰 Price: Was RM 769, now RM 660!\nPromo ends 31 Jan 2027 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
+      "savedAt": "2026-11-04T15:00:23.742Z"
+    },
+    {
+      "tripId": "tmeastr",
+      "tripName": "CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N",
+      "depDate": "",
+      "caption": "✈️ CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N\n4D2N • Hatyai • Songkhla\n💰 Price: Was RM 769, now RM 699!\nPromo ends 12 Nov 2026 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
+      "savedAt": "2026-11-04T15:03:20.079Z"
     }
   ],
   "incentive": {
