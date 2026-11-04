@@ -280,6 +280,32 @@ def build_featured_push(fp_list, trips):
     return out
 
 
+def check_parity(cust, part):
+    """Customer feed and partner feed MUST agree on every shared field.
+    Returns a list of problems (empty = in sync)."""
+    problems = []
+    ct = {t["id"]: t for t in cust["trips"]}
+    pt = {t["id"]: t for t in part["trips"]}
+    if set(ct) - set(pt):
+        problems.append("trips missing from partner feed: %s" % sorted(set(ct) - set(pt)))
+    keys = ("name", "dir", "country", "dest", "days", "priceMY", "priceNonMY",
+            "promoMY", "promoNonMY", "promoUntil", "image", "rooms")
+    for tid, c in ct.items():
+        p = pt.get(tid)
+        if not p:
+            continue
+        for k in keys:
+            if c.get(k) != p.get(k):
+                problems.append("%s: '%s' differs (customer=%r partner=%r)" % (c["name"], k, c.get(k), p.get(k)))
+        cd = sorted(d["date"] for d in c.get("deps", []))
+        pd = sorted(d["date"] for d in p.get("deps", []))
+        if cd != pd:
+            problems.append("%s: departure dates differ" % c["name"])
+    if cust.get("featuredPush") != part.get("featuredPush"):
+        problems.append("featuredPush (Push tab) differs between feeds")
+    return problems
+
+
 def main():
     if len(sys.argv) != 2:
         print("usage: sync_dashboard.py <dashboard_data.json>", file=sys.stderr)
@@ -309,12 +335,9 @@ def main():
     # the top promo strip, instead of always defaulting to the soonest one.
     cust["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
     cust_after = json.dumps(cust, sort_keys=True)
+    cust_new = cust
     if cust_before != cust_after:
         changed = True
-    with open(cust_path, "w") as f:
-        json.dump(cust, f, indent=2, ensure_ascii=False)
-        f.write("\n")
-
     with open(part_path) as f:
         part = json.load(f)
     part_before = json.dumps(part, sort_keys=True)
@@ -322,6 +345,15 @@ def main():
     part["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
     part["incentive"] = build_incentive(dash.get("incentive"))
     part_after = json.dumps(part, sort_keys=True)
+    problems = check_parity(cust_new, part)
+    if problems:
+        print("PARITY_ERROR: customer and partner feeds disagree:", file=sys.stderr)
+        for pr in problems:
+            print(" - " + pr, file=sys.stderr)
+        sys.exit(3)
+    with open(cust_path, "w") as f:
+        json.dump(cust, f, indent=2, ensure_ascii=False)
+        f.write("\n")
     if part_before != part_after:
         changed = True
     with open(part_path, "w") as f:
