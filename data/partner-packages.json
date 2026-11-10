@@ -197,28 +197,7 @@
       "commissionNonMY": 100,
       "deposit": "1000",
       "active": true,
-      "deps": [
-        {
-          "date": "2027-01-03",
-          "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2027-01-20",
-          "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2027-03-25",
-          "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2027-05-09",
-          "st": "open",
-          "note": ""
-        }
-      ],
+      "deps": [],
       "tourCode": "SHNG5D4N"
     },
     {
@@ -532,11 +511,6 @@
       "active": true,
       "deps": [
         {
-          "date": "2026-11-25",
-          "st": "open",
-          "note": ""
-        },
-        {
           "date": "2026-12-28",
           "st": "open",
           "note": ""
@@ -722,13 +696,7 @@
       "commissionNonMY": 100,
       "deposit": "1000",
       "active": true,
-      "deps": [
-        {
-          "date": "2026-12-27",
-          "st": "open",
-          "note": ""
-        }
-      ],
+      "deps": [],
       "tourCode": "BGKKNCB5D4N"
     },
     {
@@ -827,11 +795,6 @@
       "deps": [
         {
           "date": "2026-12-01",
-          "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2027-01-12",
           "st": "open",
           "note": ""
         }
