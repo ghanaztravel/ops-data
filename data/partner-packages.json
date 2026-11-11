@@ -129,8 +129,9 @@
       "deps": [
         {
           "date": "2026-11-13",
-          "st": "open",
-          "note": ""
+          "st": "full",
+          "note": "",
+          "left": 40
         },
         {
           "date": "2026-11-20",
@@ -146,6 +147,66 @@
           "date": "2026-12-31",
           "st": "open",
           "note": ""
+        },
+        {
+          "date": "2027-01-21",
+          "st": "open",
+          "note": "Thaipusam"
+        },
+        {
+          "date": "2027-03-26",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-04-23",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-21",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-05-28",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-06-03",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-07-30",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-08-27",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-09-02",
+          "st": "open",
+          "note": "School holiday"
+        },
+        {
+          "date": "2027-10-28",
+          "st": "open",
+          "note": "Deepavali"
+        },
+        {
+          "date": "2027-11-26",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-12-24",
+          "st": "open",
+          "note": "Krismas"
         }
       ],
       "tourCode": "HTYC4D2N"
