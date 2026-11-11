@@ -1666,6 +1666,59 @@
         }
       ],
       "tourCode": "RDNG3D2N"
+    },
+    {
+      "id": "tn6kgct",
+      "name": "YUNNAN & SHANGRI-LA(SNOW SEASON) – 9D7N",
+      "dir": "outbound",
+      "country": "China",
+      "dest": "Kunming • Dali • Lijiang • Shangri La",
+      "days": "9D7N",
+      "priceMY": 5299,
+      "priceNonMY": 5299,
+      "priceChildMY": 4890,
+      "priceChildNonMY": 4890,
+      "priceSeniorMY": 4890,
+      "priceSeniorNonMY": 4890,
+      "promoMY": 4890,
+      "promoNonMY": 4890,
+      "promoUntil": "2026-12-12",
+      "material": "https://drive.google.com/drive/folders/1jKguA82IxFj1LBIaUilYvBuIz3020c1U?usp=drive_link",
+      "image": "https://i.postimg.cc/jSnhp0wM/Snowy-mountain-cable-car-vista.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Kunming: Kunming – Yingrong Hotel or similar (Arrival day) Fly from Kuala Lumpur to Kunming. Meet upon arrival, then transfer to the hotel for check-in.",
+        "Day 2 Kunming → Chuxiong (B/L/D): Chuxiong – Yingrong Hotel or similar (Full sightseeing day) Naigu Stone Forest; seasonal fruit picking; Chuxiong Yi Ancient Town.",
+        "Day 3 Chuxiong → Dali (B/L/D): Dali – Yue Tu Resort Hotel or similar (Jeep photography and cultural dining experience) Travel to Dali. Jeep photography tour; Dali Ancient City; Foreigner Street; Peacock Feast.",
+        "Day 4 Dali → Shangri-La (B/L/D): Shangri-La – Hotel to be confirmed (Tiger Leaping Gorge battery shuttle included) Travel to Shangri-La. Visit Tiger Leaping Gorge, including the battery shuttle; Napa Lake Black Bean Coffee; Dukezong Ancient Town. Overnight in Shangri-La.",
+        "Day 5 Shangri-La → Lijiang (B/L/D): Lijiang – Hotel to be confirmed (Balagezong eco-shuttle included) Visit Balagezong Scenic Area, including the eco-shuttle; continue to Lijiang; explore Lijiang Ancient City. Overnight in Lijiang.",
+        "Day 6 Lijiang (B/L/D): Lijiang – Hotel to be confirmed (Lijiang Romance Show optional; RMB260 per person, not included) Baisha Ancient Town; Yuhu Village; optional Lijiang Romance Show. Overnight in Lijiang.",
+        "Day 7 Lijiang → Dali → Kunming (B/L): Kunming – Yingrong Hotel or similar (Dinner at own expense) Travel to Dali; visit Santorini Ideal Land, including uphill and downhill battery shuttles; continue to Kunming; explore Kunming Old Street (dinner at own expense). Overnight in Kunming.",
+        "Day 8 Kunming (B/L/D): (Departure transfer according to flight schedule) View seagulls at Dianchi Lake; shopping at Luosiwan International Trade City. Transfer to the airport according to flight time.",
+        "Day 9 Kunming → Kuala Lumpur: (Tour ends) Board the return flight from Kunming to Kuala Lumpur."
+      ],
+      "inc": [
+        "Return flights Kuala Lumpur–Kunming–Kuala Lumpur",
+        "7 nights’ accommodation as stated or similar, on a twin-sharing basis",
+        "7 breakfasts and 13 lunch/dinner meals as stated in the itinerary",
+        "First-entry admission tickets and specified scenic shuttles",
+        "English-speaking tour guide",
+        "Air-conditioned tour coach with professional driver",
+        "1 bottle of mineral water per person daily",
+        "Tips for the tour guide and driver"
+      ],
+      "exc": [
+        "Travel insurance",
+        "Optional activities and personal expenses",
+        "Lijiang Romance Show: RMB260 per person"
+      ],
+      "deps": [
+        {
+          "date": "2026-12-08",
+          "st": "open",
+          "note": "School holiday"
+        }
+      ],
+      "tourCode": "YNNNSS9D7N"
     }
   ],
   "featuredPush": [
@@ -1675,13 +1728,6 @@
       "depDate": "2027-05-22",
       "caption": "✈️ YUNNAN-9D7N(MUSLIM FRIENDLY)\n9D7N • Kunming • Chuxiong • Dali • Lijiang\n💰 Was RM 5,290, now RM 4,890!\nPromo ends 31 Jan 2027 — don’t miss out!\n📅 Departure: 22 May 2027\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-10-12T14:11:57.335Z"
-    },
-    {
-      "tripId": "t1",
-      "tripName": "YUNNAN-9D7N(MUSLIM FRIENDLY)",
-      "depDate": "",
-      "caption": "✈️ YUNNAN-9D7N(MUSLIM FRIENDLY)\n9D7N • Kunming • Chuxiong • Dali • Lijiang\n💰 Price: Was RM 5,290, now RM 4,890!\nPromo ends 31 Dec 2026 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
-      "savedAt": "2026-10-21T12:33:23.377Z"
     },
     {
       "tripId": "tyu6198",
@@ -1703,6 +1749,13 @@
       "depDate": "",
       "caption": "✈️ CLASSIC HATYAI PRIVATE VAN (MIN 9PAX)-4D2N\n4D2N • Hatyai • Songkhla\n💰 Price: Was RM 769, now RM 699!\nPromo ends 12 Nov 2026 — don’t miss out!\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-11-04T15:03:20.079Z"
+    },
+    {
+      "tripId": "tn6kgct",
+      "tripName": "YUNNAN & SHANGRI-LA(SNOW SEASON) – 9D7N",
+      "depDate": "2026-12-08",
+      "caption": "✈️ YUNNAN & SHANGRI-LA(SNOW SEASON) – 9D7N\n9D7N • Kunming • Dali • Lijiang • Shangri La\n💰 Price: Was RM 5,299, now RM 4,890!\nPromo ends 12 Dec 2026 — don’t miss out!\n📅 Departure: 8 Dec 2026\n📍 Book now: https://packages.ghanaz.com.my",
+      "savedAt": "2026-11-11T17:08:02.685Z"
     }
   ]
 }
