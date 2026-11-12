@@ -104,6 +104,32 @@ def dep_rate(d):
         return "wd"
 
 
+def clean_flight(d):
+    """Public flight info for a departure (airline, numbers, routes, times, baggage).
+    Never anything internal. Returns None when nothing is filled in."""
+    f = d.get("flight")
+    if not isinstance(f, dict):
+        return None
+    def leg(x):
+        if not isinstance(x, dict):
+            return None
+        o = {}
+        for k in ("al", "no", "route", "dep", "arr"):
+            v = str(x.get(k) or "").strip()
+            if v:
+                o[k] = v[:40]
+        return o or None
+    out = {}
+    for k in ("out", "ret"):
+        l = leg(f.get(k))
+        if l:
+            out[k] = l
+    bag = str(f.get("bag") or "").strip()[:30]
+    if bag:
+        out["bag"] = bag
+    return out or None
+
+
 def build_trip_deps(trip_id, deps, sales, show_left=True, with_rate=False):
     now = today_str()
     trip_deps = []
@@ -114,6 +140,9 @@ def build_trip_deps(trip_id, deps, sales, show_left=True, with_rate=False):
         entry = {"date": d["date"], "st": st, "note": d.get("note") or ""}
         if with_rate:
             entry["rate"] = dep_rate(d)
+        fl = clean_flight(d)
+        if fl:
+            entry["flight"] = fl
         # Optional price for this specific departure (flight costs differ by
         # date). Only the selling price is ever copied — never the date's cost.
         for k in ("priceMY", "priceNonMY"):
@@ -303,6 +332,10 @@ def check_parity(cust, part):
         pd = sorted(d["date"] for d in p.get("deps", []))
         if cd != pd:
             problems.append("%s: departure dates differ" % c["name"])
+        cf = dict((d["date"], d.get("flight")) for d in c.get("deps", []))
+        pf = dict((d["date"], d.get("flight")) for d in p.get("deps", []))
+        if cf != pf:
+            problems.append("%s: flight details differ between feeds" % c["name"])
     if cust.get("featuredPush") != part.get("featuredPush"):
         problems.append("featuredPush (Push tab) differs between feeds")
     return problems
