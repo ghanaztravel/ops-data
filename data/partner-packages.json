@@ -264,7 +264,28 @@
       "commissionNonMY": 100,
       "deposit": "1000",
       "active": true,
-      "deps": [],
+      "deps": [
+        {
+          "date": "2027-01-03",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-01-20",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-03-25",
+          "st": "open",
+          "note": ""
+        },
+        {
+          "date": "2027-05-09",
+          "st": "open",
+          "note": ""
+        }
+      ],
       "tourCode": "SHNG5D4N"
     },
     {
