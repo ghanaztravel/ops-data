@@ -151,6 +151,7 @@ def build_customer_trips(trips, deps, sales):
             "country": (t.get("country") or "").strip(),
             "dest": t.get("dest") or "",
             "days": t.get("days") or "",
+            "ptype": "ground" if t.get("ptype") == "ground" else "full",
             "priceMY": price_my,
             "priceNonMY": price_nonmy,
             "priceChildMY": child_my,
@@ -196,6 +197,7 @@ def build_partner_trips(trips, deps, sales, prev_trips):
             "country": (t.get("country") or "").strip(),
             "dest": t.get("dest") or "",
             "days": t.get("days") or "",
+            "ptype": "ground" if t.get("ptype") == "ground" else "full",
             "priceMY": price_my,
             "priceNonMY": price_nonmy,
             "priceChildMY": child_my,
@@ -288,7 +290,7 @@ def check_parity(cust, part):
     pt = {t["id"]: t for t in part["trips"]}
     if set(ct) - set(pt):
         problems.append("trips missing from partner feed: %s" % sorted(set(ct) - set(pt)))
-    keys = ("name", "dir", "country", "dest", "days", "priceMY", "priceNonMY",
+    keys = ("name", "dir", "ptype", "country", "dest", "days", "priceMY", "priceNonMY",
             "promoMY", "promoNonMY", "promoUntil", "image", "rooms")
     for tid, c in ct.items():
         p = pt.get(tid)
