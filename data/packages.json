@@ -456,7 +456,14 @@
         {
           "date": "2027-01-02",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH388",
+              "route": "KUL-PVG"
+            }
+          }
         },
         {
           "date": "2027-01-04",
