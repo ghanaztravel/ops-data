@@ -2018,5 +2018,18 @@
     ],
     "until": "2027-01-01"
   },
-  "hotels": []
+  "hotels": [
+    {
+      "id": "h3fv1yo",
+      "name": "Grand Pink Hotel",
+      "city": "Hat Yai",
+      "stars": 3,
+      "image": "https://i.postimg.cc/8kLP8QXC/Grand-Pink-Park-Hotel-Entrance.png",
+      "meal": "Room only",
+      "cancel": "Free cancellation up to 20 days before check-in. After that, no refund.",
+      "from": 0,
+      "checked": "2026-11-13",
+      "comm": 10
+    }
+  ]
 }
