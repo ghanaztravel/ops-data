@@ -380,22 +380,70 @@
         {
           "date": "2027-01-03",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-20",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-03-25",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-05-09",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         }
       ],
       "tourCode": "SHNG5D4N"
@@ -460,80 +508,253 @@
           "flight": {
             "out": {
               "al": "Malaysia Airlines",
-              "no": "MH388",
+              "no": "MH 388",
               "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
             }
           }
         },
         {
           "date": "2027-01-04",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-05",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-19",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-27",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-01",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-03",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-04",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-25",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-27",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-06-03",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-06-24",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-07-15",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-07-29",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         },
         {
           "date": "2027-08-05",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 388",
+              "route": "KUL-PVG"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 389",
+              "route": "PVG-KUL"
+            }
+          }
         }
       ],
       "tourCode": "SHNGD5D4N"
@@ -644,17 +865,53 @@
         {
           "date": "2027-04-28",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 366",
+              "route": "KUL-TPE"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 367",
+              "route": "TPE-KUL"
+            }
+          }
         },
         {
           "date": "2027-05-13",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 366",
+              "route": "KUL-TPE"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 367",
+              "route": "TPE-KUL"
+            }
+          }
         },
         {
           "date": "2027-06-02",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 366",
+              "route": "KUL-TPE"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 367",
+              "route": "TPE-KUL"
+            }
+          }
         }
       ],
       "tourCode": "TWNALSHN5D4N"
@@ -713,17 +970,53 @@
         {
           "date": "2027-01-13",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 366",
+              "route": "KUL-TPE"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 367",
+              "route": "TPE-KUL"
+            }
+          }
         },
         {
           "date": "2027-03-25",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 366",
+              "route": "KUL-TPE"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 367",
+              "route": "TPE-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-01",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 366",
+              "route": "KUL-TPE"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 367",
+              "route": "TPE-KUL"
+            }
+          }
         }
       ],
       "tourCode": "TWNTP1015H4N"
@@ -785,7 +1078,19 @@
         {
           "date": "2027-01-06",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 38",
+              "route": "KUL-ICN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH39",
+              "route": "ICN-KUL"
+            }
+          }
         }
       ],
       "tourCode": "SELKR6D4N"
@@ -844,17 +1149,53 @@
         {
           "date": "2027-07-09",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 746",
+              "route": "KUL-DAD"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 749",
+              "route": "DAD-KUL"
+            }
+          }
         },
         {
           "date": "2027-08-05",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 746",
+              "route": "KUL-DAD"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 749",
+              "route": "DAD-KUL"
+            }
+          }
         },
         {
           "date": "2027-08-11",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 746",
+              "route": "KUL-DAD"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 749",
+              "route": "DAD-KUL"
+            }
+          }
         }
       ],
       "tourCode": "DNNG4D3N"
@@ -913,107 +1254,359 @@
         {
           "date": "2026-12-28",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2026-12-29",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-04",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-05",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-13",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-15",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-20",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-01-27",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-03-17",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-03-25",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-01",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-28",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-29",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-05-06",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-05-20",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-05-27",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-06-03",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-06-04",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-07-15",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-07-29",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         },
         {
           "date": "2027-08-06",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 750",
+              "route": "KUL-SGN"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 759",
+              "route": "SGN-KUL"
+            }
+          }
         }
       ],
       "tourCode": "DMH5D4N"
@@ -1071,32 +1664,104 @@
         {
           "date": "2027-01-15",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 784",
+              "route": "KUL-BKK"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 775",
+              "route": "BKK-KUL"
+            }
+          }
         },
         {
           "date": "2027-04-30",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 784",
+              "route": "KUL-BKK"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 775",
+              "route": "BKK-KUL"
+            }
+          }
         },
         {
           "date": "2027-05-07",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 784",
+              "route": "KUL-BKK"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 775",
+              "route": "BKK-KUL"
+            }
+          }
         },
         {
           "date": "2027-06-04",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 784",
+              "route": "KUL-BKK"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 775",
+              "route": "BKK-KUL"
+            }
+          }
         },
         {
           "date": "2027-07-16",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 784",
+              "route": "KUL-BKK"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 775",
+              "route": "BKK-KUL"
+            }
+          }
         },
         {
           "date": "2027-08-12",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 784",
+              "route": "KUL-BKK"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 775",
+              "route": "BKK-KUL"
+            }
+          }
         }
       ],
       "tourCode": "BGKKNCB4D3N"
@@ -1210,47 +1875,119 @@
         {
           "date": "2027-04-27",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-04-28",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-05-04",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-05-13",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-06-08",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-07-06",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-07-27",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-08-05",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         },
         {
           "date": "2027-08-07",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         }
       ],
       "tourCode": "BJNGMGL6D4N"
@@ -1310,7 +2047,15 @@
         {
           "date": "2026-12-01",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         }
       ],
       "tourCode": "CDJZHL6D4N"
@@ -1430,7 +2175,15 @@
         {
           "date": "2027-01-03",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         }
       ],
       "tourCode": "BJNGHSV6D5N"
@@ -1503,12 +2256,15 @@
         {
           "date": "2027-01-08",
           "st": "open",
-          "note": ""
-        },
-        {
-          "date": "2027-01-27",
-          "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines"
+            },
+            "ret": {
+              "al": "Malaysia Airlines"
+            }
+          }
         }
       ],
       "tourCode": "BJNGHYBL5D4N"
