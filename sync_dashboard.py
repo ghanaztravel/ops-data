@@ -311,6 +311,55 @@ def build_featured_push(fp_list, trips):
     return out
 
 
+
+def hotel_cancel_text(h):
+    """Same wording as the dashboard (hCancel). One text, used on both pages."""
+    c = str(h.get("cancel") or "")
+    d = int(round(num(h.get("cdays"))))
+    if c == "Non-refundable":
+        return "Non-refundable: no refund after booking"
+    if c == "Free cancellation":
+        if d > 0:
+            return "Free cancellation up to %d day%s before check-in. After that, no refund." % (d, "" if d == 1 else "s")
+        return "Free cancellation until the date the office confirms. After that, no refund."
+    if c == "Partly refundable":
+        return "Partly refundable. The office confirms the terms."
+    return c[:80]
+
+
+def build_hotels(hotels, partner=False):
+    """Public hotel entries only. Never includes DIDA price, OTA price or profit.
+    Partner feed also carries the freelancer commission per night."""
+    out = []
+    for h in hotels or []:
+        if h.get("active") is False:
+            continue
+        name = str(h.get("name") or "").strip()[:100]
+        if not name:
+            continue
+        price = int(round(num(h.get("from")))) if h.get("showPrice") is not False else 0
+        img = str(h.get("image") or "").strip()
+        e = {
+            "id": str(h.get("id") or ""),
+            "name": name,
+            "city": str(h.get("city") or "").strip()[:40],
+            "stars": max(0, min(5, int(num(h.get("stars"))))),
+            "image": img if img.lower().startswith(("http://", "https://")) else "",
+            "meal": str(h.get("meal") or "")[:40],
+            "cancel": hotel_cancel_text(h),
+            "from": max(0, price),
+            "checked": str(h.get("checkedOn") or "")[:10],
+        }
+        note = str(h.get("note") or "").strip()[:160]
+        if note:
+            e["note"] = note
+        if partner:
+            e["comm"] = max(0, int(round(num(h.get("comm")))))
+        out.append(e)
+    out.sort(key=lambda x: (x["city"].lower(), x["name"].lower()))
+    return out
+
+
 def check_parity(cust, part):
     """Customer feed and partner feed MUST agree on every shared field.
     Returns a list of problems (empty = in sync)."""
@@ -336,6 +385,11 @@ def check_parity(cust, part):
         pf = dict((d["date"], d.get("flight")) for d in p.get("deps", []))
         if cf != pf:
             problems.append("%s: flight details differ between feeds" % c["name"])
+    hk = ("id", "name", "city", "stars", "image", "meal", "cancel", "from", "checked", "note")
+    chs = [tuple(h.get(k) for k in hk) for h in cust.get("hotels", [])]
+    phs = [tuple(h.get(k) for k in hk) for h in part.get("hotels", [])]
+    if chs != phs:
+        problems.append("hotels differ between feeds")
     if cust.get("featuredPush") != part.get("featuredPush"):
         problems.append("featuredPush (Push tab) differs between feeds")
     return problems
@@ -369,6 +423,7 @@ def main():
     # tab) is used by the customer site to highlight that exact departure in
     # the top promo strip, instead of always defaulting to the soonest one.
     cust["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
+    cust["hotels"] = build_hotels(dash.get("hotels"), partner=False)
     cust_after = json.dumps(cust, sort_keys=True)
     cust_new = cust
     if cust_before != cust_after:
@@ -378,6 +433,8 @@ def main():
     part_before = json.dumps(part, sort_keys=True)
     part["trips"] = build_partner_trips(trips, deps, sales, part.get("trips"))
     part["featuredPush"] = build_featured_push(dash.get("pushFeatured"), trips)
+    part["hotels"] = build_hotels(dash.get("hotels"), partner=True)
+    part.setdefault("config", {})["officeWhatsapp"] = str(cust.get("config", {}).get("whatsapp") or "")
     part["incentive"] = build_incentive(dash.get("incentive"))
     part_after = json.dumps(part, sort_keys=True)
     problems = check_parity(cust_new, part)
