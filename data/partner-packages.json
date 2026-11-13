@@ -3,7 +3,8 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "portalPin": "00001",
     "adminPin": "020394",
-    "customerLink": "https://packages.ghanaz.com.my"
+    "customerLink": "https://packages.ghanaz.com.my",
+    "officeWhatsapp": "60108800854"
   },
   "trips": [
     {
@@ -2016,5 +2017,6 @@
       }
     ],
     "until": "2027-01-01"
-  }
+  },
+  "hotels": []
 }
