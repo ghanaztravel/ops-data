@@ -1176,6 +1176,23 @@
           }
         },
         {
+          "date": "2027-08-06",
+          "st": "open",
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Malaysia Airlines",
+              "no": "MH 746",
+              "route": "KUL-DAD"
+            },
+            "ret": {
+              "al": "Malaysia Airlines",
+              "no": "MH 749",
+              "route": "DAD-KUL"
+            }
+          }
+        },
+        {
           "date": "2027-08-11",
           "st": "open",
           "note": "",
@@ -1203,8 +1220,8 @@
       "dest": "Dalat • Muine • Ho Chi Minh",
       "days": "5D4N",
       "ptype": "full",
-      "priceMY": 2180,
-      "priceNonMY": 2180,
+      "priceMY": 2280,
+      "priceNonMY": 2280,
       "priceChildMY": 0,
       "priceChildNonMY": 0,
       "priceSeniorMY": 0,
@@ -2118,7 +2135,7 @@
     },
     {
       "id": "tl5kg7u",
-      "name": "BEIJING HARBIN SNOW VILLAGE",
+      "name": "BEIJING HARBIN YABULI SNOW VILLAGE",
       "dir": "outbound",
       "country": "China",
       "dest": "Beijing • Harbin",
