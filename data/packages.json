@@ -3,7 +3,7 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "whatsapp": "60108800854",
     "email": "",
-    "asOf": "2026-11-17",
+    "asOf": "2026-11-18",
     "editPin": ""
   },
   "trips": [
@@ -54,11 +54,6 @@
         "Any other expenses not mentioned under Inclusions"
       ],
       "deps": [
-        {
-          "date": "2026-11-17",
-          "st": "full",
-          "note": ""
-        },
         {
           "date": "2027-01-16",
           "st": "open",
