@@ -327,10 +327,30 @@ def hotel_cancel_text(h):
     return c[:80]
 
 
+def hotel_promo(h, today):
+    """Public promo block, or None. Only the promo selling price is exposed (never the DIDA promo price)."""
+    if not h.get("promoOn") or h.get("showPrice") is False:
+        return None
+    until = str(h.get("promoUntil") or "")[:10]
+    price = int(round(num(h.get("pfrom"))))
+    if not until or until < today or price <= 0:
+        return None
+    terms = str(h.get("promoTerms") or "").strip()[:240] or hotel_cancel_text(h)
+    return {
+        "title": str(h.get("promoTitle") or "").strip()[:40],
+        "until": until,
+        "from": str(h.get("promoFrom") or "")[:10],
+        "to": str(h.get("promoTo") or "")[:10],
+        "terms": terms,
+        "price": price,
+    }
+
+
 def build_hotels(hotels, partner=False):
     """Public hotel entries only. Never includes DIDA price, OTA price or profit.
     Partner feed also carries the freelancer commission per night."""
     out = []
+    today = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d")
     for h in hotels or []:
         if h.get("active") is False:
             continue
@@ -353,6 +373,9 @@ def build_hotels(hotels, partner=False):
         note = str(h.get("note") or "").strip()[:160]
         if note:
             e["note"] = note
+        pr = hotel_promo(h, today)
+        if pr:
+            e["promo"] = pr
         if partner:
             e["comm"] = max(0, int(round(num(h.get("comm")))))
         out.append(e)
@@ -385,7 +408,7 @@ def check_parity(cust, part):
         pf = dict((d["date"], d.get("flight")) for d in p.get("deps", []))
         if cf != pf:
             problems.append("%s: flight details differ between feeds" % c["name"])
-    hk = ("id", "name", "city", "stars", "image", "meal", "cancel", "from", "checked", "note")
+    hk = ("id", "name", "city", "stars", "image", "meal", "cancel", "from", "checked", "note", "promo")
     chs = [tuple(h.get(k) for k in hk) for h in cust.get("hotels", [])]
     phs = [tuple(h.get(k) for k in hk) for h in part.get("hotels", [])]
     if chs != phs:
