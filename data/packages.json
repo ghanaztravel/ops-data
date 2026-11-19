@@ -2630,15 +2630,23 @@
   ],
   "hotels": [
     {
-      "id": "h3fv1yo",
-      "name": "Grand Pink Hotel",
-      "city": "Hat Yai",
-      "stars": 3,
-      "image": "https://i.postimg.cc/8kLP8QXC/Grand-Pink-Park-Hotel-Entrance.png",
+      "id": "hh6vkyx",
+      "name": "Hyatt Centric Kota Kinabalu",
+      "city": "Kota Kinabalu, Sabah",
+      "stars": 5,
+      "image": "",
       "meal": "Room only",
-      "cancel": "Free cancellation up to 20 days before check-in. After that, no refund.",
-      "from": 0,
-      "checked": "2026-11-13"
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 489,
+      "checked": "2026-11-19",
+      "promo": {
+        "title": "Winter Deal",
+        "until": "2026-11-30",
+        "from": "2026-11-19",
+        "to": "2026-12-04",
+        "terms": "Room only, 2 adults per room. Price per room per night.\nFree cancellation up to 7 days before check-in. After that, non-refundable.\n\"From\" price is for weekday stays. Weekends and public holidays may be higher.\nSubject to room availability ",
+        "price": 369
+      }
     }
   ]
 }
