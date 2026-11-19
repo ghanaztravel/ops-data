@@ -202,7 +202,7 @@
       "deps": [
         {
           "date": "2026-11-20",
-          "st": "open",
+          "st": "full",
           "note": ""
         },
         {
@@ -2630,6 +2630,25 @@
   ],
   "hotels": [
     {
+      "id": "hhs801b",
+      "name": "Crystal Hotel Hat Yai",
+      "city": "Hat Yai, Thailand",
+      "stars": 4,
+      "image": "",
+      "meal": "Breakfast included",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 196,
+      "checked": "2026-11-19",
+      "promo": {
+        "title": "",
+        "until": "2026-11-30",
+        "from": "2026-11-19",
+        "to": "2026-12-04",
+        "terms": "Breakfast for 2 included. 2 adults per room. Price per room per night.\nFree cancellation up to 8 days before check-in. After that, non-refundable.\n\"From\" price is for selected dates only. Weekends and holidays may be higher.\nSubject to room",
+        "price": 196
+      }
+    },
+    {
       "id": "hh6vkyx",
       "name": "Hyatt Centric Kota Kinabalu",
       "city": "Kota Kinabalu, Sabah",
@@ -2641,6 +2660,25 @@
       "checked": "2026-11-19",
       "promo": {
         "title": "Winter Deal",
+        "until": "2026-11-30",
+        "from": "2026-11-19",
+        "to": "2026-12-04",
+        "terms": "Room only, 2 adults per room. Price per room per night.\nFree cancellation up to 7 days before check-in. After that, non-refundable.\n\"From\" price is for weekday stays. Weekends and public holidays may be higher.\nSubject to room availability ",
+        "price": 369
+      }
+    },
+    {
+      "id": "hq9n38q",
+      "name": "TAMU Hotel & Suites Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "stars": 4,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 369,
+      "checked": "2026-11-19",
+      "promo": {
+        "title": "",
         "until": "2026-11-30",
         "from": "2026-11-19",
         "to": "2026-12-04",
