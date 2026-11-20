@@ -1851,7 +1851,24 @@
         {
           "date": "2027-04-12",
           "st": "open",
-          "note": ""
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Batik Airlines",
+              "no": "OD526",
+              "route": "KUL-DMK",
+              "dep": "2027-04-12T11:25",
+              "arr": "2027-04-12T12:55"
+            },
+            "ret": {
+              "al": "Batik Airlines",
+              "no": "OD529",
+              "route": "DMK-KUL",
+              "dep": "2027-04-16T18:00",
+              "arr": "2027-04-16T21:00"
+            },
+            "bag": "20KG"
+          }
         }
       ],
       "tourCode": "BNGKSK5D4N"
@@ -2106,6 +2123,18 @@
       "comm": 15
     },
     {
+      "id": "h8tc5g9",
+      "name": "Mercure Langkawi Pantai Cenang",
+      "city": "Langkawi",
+      "stars": 4,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 509,
+      "checked": "2026-11-20",
+      "comm": 20
+    },
+    {
       "id": "hnadorv",
       "name": "Dusit Princess Melaka",
       "city": "Melaka",
@@ -2164,6 +2193,18 @@
       "from": 410,
       "checked": "2026-11-20",
       "comm": 10
+    },
+    {
+      "id": "hjuf5ge",
+      "name": "Shangri-La Golden Sands Penang",
+      "city": "Penang",
+      "stars": 4,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation up to 20 days before check-in. After that, no refund.",
+      "from": 496,
+      "checked": "2026-11-20",
+      "comm": 15
     },
     {
       "id": "hs7629b",
