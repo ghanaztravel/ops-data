@@ -127,12 +127,6 @@
       "active": true,
       "deps": [
         {
-          "date": "2026-11-20",
-          "st": "full",
-          "note": "",
-          "left": 40
-        },
-        {
           "date": "2026-12-04",
           "st": "open",
           "note": ""
