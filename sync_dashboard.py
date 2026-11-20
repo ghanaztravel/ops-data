@@ -359,6 +359,11 @@ def build_hotels(hotels, partner=False):
             continue
         price = int(round(num(h.get("from")))) if h.get("showPrice") is not False else 0
         img = str(h.get("image") or "").strip()
+        # Accept pasted markdown like [![alt](https://img.png)](https://page) -> use the image URL
+        import re as _re
+        _m = _re.search(r"https?://[^\s)\]]+?\.(?:png|jpe?g|webp|gif|avif)(?:\?[^\s)\]]*)?", img, _re.I)
+        if _m and not img.lower().startswith(("http://", "https://")):
+            img = _m.group(0)
         e = {
             "id": str(h.get("id") or ""),
             "name": name,
