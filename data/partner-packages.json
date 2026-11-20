@@ -2086,6 +2086,26 @@
       "comm": 10
     },
     {
+      "id": "hg56ekg",
+      "name": "Holiday Villa Beach Resort Langkawi",
+      "city": "Langkawi",
+      "stars": 4,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 420,
+      "checked": "2026-11-20",
+      "promo": {
+        "title": "",
+        "until": "2026-11-30",
+        "from": "2026-11-20",
+        "to": "2026-12-31",
+        "terms": "Room only, 2 adults per room. Price per room per night.\nFree cancellation up to 7 days before check-in. After that, non-refundable.\n\"From\" price is for weekday stays. Weekends and public holidays may be higher.\nSubject to room availability ",
+        "price": 409
+      },
+      "comm": 15
+    },
+    {
       "id": "hnadorv",
       "name": "Dusit Princess Melaka",
       "city": "Melaka",
@@ -2131,6 +2151,18 @@
       "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
       "from": 199,
       "checked": "2026-11-19",
+      "comm": 10
+    },
+    {
+      "id": "hrb8m8h",
+      "name": "Jen Penang Georgetown by Shangri-La",
+      "city": "Penang",
+      "stars": 4,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 410,
+      "checked": "2026-11-20",
       "comm": 10
     },
     {
