@@ -2098,9 +2098,21 @@
         "from": "2026-11-19",
         "to": "2026-12-04",
         "terms": "Room only, 2 adults per room. Price per room per night.\nFree cancellation up to 7 days before check-in. After that, non-refundable.\n\"From\" price is for weekday stays. Weekends and public holidays may be higher.\nSubject to room availability ",
-        "price": 369
+        "price": 359
       },
       "comm": 10
+    },
+    {
+      "id": "hqdg3jw",
+      "name": "Aloft Langkawi Pantai Tengah",
+      "city": "Langkawi",
+      "stars": 4,
+      "image": "",
+      "meal": "Breakfast included",
+      "cancel": "Free cancellation up to 20 days before check-in. After that, no refund.",
+      "from": 710,
+      "checked": "2026-11-20",
+      "comm": 20
     },
     {
       "id": "hg56ekg",
@@ -2131,6 +2143,30 @@
       "meal": "Room only",
       "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
       "from": 509,
+      "checked": "2026-11-20",
+      "comm": 20
+    },
+    {
+      "id": "hkelwz8",
+      "name": "The Westin Langkawi",
+      "city": "Langkawi",
+      "stars": 5,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 734,
+      "checked": "2026-11-20",
+      "comm": 15
+    },
+    {
+      "id": "hr34z0m",
+      "name": "Courtyard by Marriott Melaka",
+      "city": "Melaka",
+      "stars": 4,
+      "image": "",
+      "meal": "Breakfast included",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 679,
       "checked": "2026-11-20",
       "comm": 20
     },
@@ -2183,6 +2219,30 @@
       "comm": 10
     },
     {
+      "id": "hvszy5k",
+      "name": "Ascott Gurney Penang",
+      "city": "Penang",
+      "stars": 5,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation up to 20 days before check-in. After that, no refund.",
+      "from": 609,
+      "checked": "2026-11-20",
+      "comm": 20
+    },
+    {
+      "id": "hvbyli6",
+      "name": "G Hotel Gurney Penang",
+      "city": "Penang",
+      "stars": 5,
+      "image": "",
+      "meal": "Room only",
+      "cancel": "Free cancellation until the date the office confirms. After that, no refund.",
+      "from": 730,
+      "checked": "2026-11-20",
+      "comm": 20
+    },
+    {
       "id": "hrb8m8h",
       "name": "Jen Penang Georgetown by Shangri-La",
       "city": "Penang",
@@ -2193,6 +2253,18 @@
       "from": 410,
       "checked": "2026-11-20",
       "comm": 10
+    },
+    {
+      "id": "h08rndh",
+      "name": "Lone Pine Penang",
+      "city": "Penang",
+      "stars": 4,
+      "image": "",
+      "meal": "Breakfast included",
+      "cancel": "Free cancellation up to 20 days before check-in. After that, no refund.",
+      "from": 762,
+      "checked": "2026-11-20",
+      "comm": 15
     },
     {
       "id": "hjuf5ge",
