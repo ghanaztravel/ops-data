@@ -1676,14 +1676,7 @@
       "commissionNonMY": 100,
       "deposit": "1000",
       "active": true,
-      "deps": [
-        {
-          "date": "2026-11-23",
-          "st": "full",
-          "note": "",
-          "left": 8
-        }
-      ],
+      "deps": [],
       "tourCode": "KMGDLLJG7D5N"
     },
     {

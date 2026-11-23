@@ -3,7 +3,7 @@
     "company": "Ghanaz Travel And Event (G.T.A.E)",
     "whatsapp": "60108800854",
     "email": "",
-    "asOf": "2026-11-23",
+    "asOf": "2026-11-24",
     "editPin": ""
   },
   "trips": [
@@ -2114,13 +2114,7 @@
         "Excess baggage charges",
         "Any other items not stated in the package"
       ],
-      "deps": [
-        {
-          "date": "2026-11-23",
-          "st": "full",
-          "note": ""
-        }
-      ],
+      "deps": [],
       "tourCode": "KMGDLLJG7D5N"
     },
     {
