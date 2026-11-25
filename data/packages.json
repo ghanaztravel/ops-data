@@ -447,9 +447,9 @@
       "priceChildNonMY": 0,
       "priceSeniorMY": 0,
       "priceSeniorNonMY": 0,
-      "promoMY": 0,
-      "promoNonMY": 0,
-      "promoUntil": "",
+      "promoMY": 3800,
+      "promoNonMY": 3800,
+      "promoUntil": "2026-12-31",
       "material": "https://drive.google.com/drive/folders/1LwNPU8hxIqv-1YaJIlApwVeDADTA5GoE?usp=drive_link",
       "image": "https://i.postimg.cc/QdpJnhvk/Chat-GPT-Image-Sep-30-2026-10-06-35-PM.png",
       "itin": [
@@ -2632,6 +2632,13 @@
       "depDate": "2026-12-08",
       "caption": "✈️ YUNNAN & SHANGRI-LA(SNOW SEASON) – 9D7N\n9D7N • Kunming • Dali • Lijiang • Shangri La\n💰 Price: Was RM 5,299, now RM 4,890!\nPromo ends 12 Dec 2026 — don’t miss out!\n📅 Departure: 8 Dec 2026\n📍 Book now: https://packages.ghanaz.com.my",
       "savedAt": "2026-11-11T17:08:02.685Z"
+    },
+    {
+      "tripId": "trsemte",
+      "tripName": "SHANGHAI DISNEYLAND-5D4N",
+      "depDate": "2027-01-27",
+      "caption": "✈️ SHANGHAI DISNEYLAND-5D4N\n5D4N • Shanghai • Disneyland\n💰 Price: Was RM 4,180, now RM 3,800!\nPromo ends 31 Dec 2026 — don’t miss out!\n📅 Departure: 27 Jan 2027\n📍 Book now: https://packages.ghanaz.com.my",
+      "savedAt": "2026-11-25T08:25:39.103Z"
     }
   ],
   "hotels": [
