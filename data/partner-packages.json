@@ -2005,8 +2005,61 @@
               "al": "Batik Airlines",
               "no": "OD872M",
               "route": "KUL-NRT",
-              "dep": "2027-01-06T12:27"
-            }
+              "dep": "2027-01-06T00:10",
+              "arr": "2027-01-06T08:25"
+            },
+            "ret": {
+              "al": "Batik Airlines",
+              "no": "OD873M",
+              "route": "NRT-KUL",
+              "dep": "2027-01-11T10:25",
+              "arr": "2027-01-11T21:50"
+            },
+            "bag": "20KG"
+          }
+        },
+        {
+          "date": "2027-01-10",
+          "st": "open",
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Batik Airlines",
+              "no": "OD872M",
+              "route": "KUL-NRT",
+              "dep": "2027-01-10T00:10",
+              "arr": "2027-01-10T08:25"
+            },
+            "ret": {
+              "al": "Batik Airlines",
+              "no": "OD873M",
+              "route": "NRT-KUL",
+              "dep": "2027-01-15T10:25",
+              "arr": "2027-01-15T21:50"
+            },
+            "bag": "20KG"
+          }
+        },
+        {
+          "date": "2027-01-15",
+          "st": "open",
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Batik Airlines",
+              "no": "OD872M",
+              "route": "KUL-NRT",
+              "dep": "2027-01-15T00:10",
+              "arr": "2027-01-15T08:25"
+            },
+            "ret": {
+              "al": "Batik Airlines",
+              "no": "OD873M",
+              "route": "NRT-KUL",
+              "dep": "2027-01-20T10:25",
+              "arr": "2027-01-20T21:50"
+            },
+            "bag": "20KG"
           }
         }
       ],
