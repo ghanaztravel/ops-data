@@ -2602,6 +2602,68 @@
         }
       ],
       "tourCode": "YNNNSS9D7N"
+    },
+    {
+      "id": "tqk1cqz",
+      "name": "SAPPORO WINTER WONDERLAND – 6D5N",
+      "dir": "outbound",
+      "country": "Japan",
+      "dest": "Ningle Terrace • Bibai Snow Mobile • Shirahige Waterfall",
+      "days": "6D5N",
+      "ptype": "full",
+      "priceMY": 6200,
+      "priceNonMY": 6200,
+      "priceChildMY": 5999,
+      "priceChildNonMY": 5999,
+      "priceSeniorMY": 5999,
+      "priceSeniorNonMY": 5999,
+      "promoMY": 6000,
+      "promoNonMY": 6000,
+      "promoUntil": "2026-12-31",
+      "material": "https://drive.google.com/drive/folders/1EnG3sWBnOKOwimA4-RxMux9mOV4cgNF4?usp=drive_link",
+      "image": "https://i.postimg.cc/9Qpv3Mr8/Catching-snow-on-a-glowing-Japanese-street.png",
+      "itin": [
+        "Day 1 Kuala Lumpur → Tokyo → Sapporo (MOB): 3★ Sapporo – Travelodge Hotel / APA Hotel / Smile Hotel or equivalent (Arrival day) Gather at the airport for briefing and flight check-in. Fly to Narita, Tokyo, then take a domestic flight to Sapporo. Transfer by chartered bus to the hotel for check-in. Free time and overnight in Sapporo.",
+        "Day 2 Sapporo → Asahikawa → Biei → Furano → Sapporo (No meals): 3★ Sapporo – Travelodge Hotel / APA Hotel / Smile Hotel or equivalent (Zoo, waterfall and forest village) Visit Asahiyama Zoo to see penguins and polar bears; Shirahige Waterfall, known as the White Beard Waterfall; Ningle Terrace, featuring illuminated wooden craft cabins in a forest setting. Return to the hotel. Meals on own.",
+        "Day 3 Sapporo → Bibai → Sapporo (No meals): 3★ Sapporo – Travelodge Hotel / APA Hotel / Smile Hotel or equivalent (Snow activities at own expense) Visit Alpen Snowland Bibai for optional snow activities such as snowmobiling, snow rafting, snow tubing and bubble ball, subject to availability and additional charges; shopping at Mitsui Outlet Park Sapporo Kitahiroshima. Return to the hotel. Meals on own.",
+        "Day 4 Sapporo → Otaru → Sapporo (No meals): 3★ Sapporo – Travelodge Hotel / APA Hotel / Smile Hotel or equivalent (Otaru sightseeing and shopping) Visit Shukutsu Panorama Deck for views of Otaru and the Sea of Japan; Otaru Canal; shopping along Sakaimachi Street; optional eight-layer ice cream at own expense; Steam Clock. Return to the hotel. Meals on own.",
+        "Day 5 Sapporo → Tokyo (No meals): 3★ Tokyo/Narita – Narita Tobu Hotel Airport or equivalent (Domestic flight and outlet shopping) Check out and transfer to the airport for your domestic flight to Tokyo. Transfer to the hotel for check-in; shopping at Shisui Premium Outlets. Return to the hotel. Meals on own.",
+        "Day 6 Tokyo → Kuala Lumpur (MOB): (Departure transfer according to flight schedule; tour ends) Check out and transfer to Narita International Airport for your return flight to Kuala Lumpur."
+      ],
+      "inc": [
+        "Return international flight tickets Kuala Lumpur–Tokyo–Kuala Lumpur",
+        "Return domestic flight tickets Tokyo–Sapporo–Tokyo",
+        "20kg checked baggage allowance per person each way on international and domestic flights",
+        "Halal meals on international flights",
+        "5 nights’ accommodation at 3★ hotels on a twin/triple-sharing basis",
+        "Admission tickets as stated in the programme",
+        "Chartered bus transportation during scheduled tours and transfers",
+        "Tour Leader"
+      ],
+      "exc": [
+        "Travel insurance, compulsory and to be purchased separately",
+        "Meals and beverages throughout the trip, except stated international in-flight meals",
+        "Optional snow activities and tickets not specified under Inclusions",
+        "Peak season and festive season surcharges",
+        "Personal expenses",
+        "Any other services not mentioned under Inclusions"
+      ],
+      "deps": [
+        {
+          "date": "2027-01-06",
+          "st": "open",
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Batik Airlines",
+              "no": "OD872M",
+              "route": "KUL-NRT",
+              "dep": "2027-01-06T12:27"
+            }
+          }
+        }
+      ],
+      "tourCode": "SPPR6D5N"
     }
   ],
   "featuredPush": [

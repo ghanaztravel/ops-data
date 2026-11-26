@@ -1971,6 +1971,46 @@
         }
       ],
       "tourCode": "YNNNSS9D7N"
+    },
+    {
+      "id": "tqk1cqz",
+      "name": "SAPPORO WINTER WONDERLAND – 6D5N",
+      "dir": "outbound",
+      "country": "Japan",
+      "dest": "Ningle Terrace • Bibai Snow Mobile • Shirahige Waterfall",
+      "days": "6D5N",
+      "ptype": "full",
+      "priceMY": 6200,
+      "priceNonMY": 6200,
+      "priceChildMY": 5999,
+      "priceChildNonMY": 5999,
+      "priceSeniorMY": 5999,
+      "priceSeniorNonMY": 5999,
+      "promoMY": 6000,
+      "promoNonMY": 6000,
+      "promoUntil": "2026-12-31",
+      "material": "https://drive.google.com/drive/folders/1EnG3sWBnOKOwimA4-RxMux9mOV4cgNF4?usp=drive_link",
+      "image": "https://i.postimg.cc/9Qpv3Mr8/Catching-snow-on-a-glowing-Japanese-street.png",
+      "commissionMY": 150,
+      "commissionNonMY": 150,
+      "deposit": "1000",
+      "active": true,
+      "deps": [
+        {
+          "date": "2027-01-06",
+          "st": "open",
+          "note": "",
+          "flight": {
+            "out": {
+              "al": "Batik Airlines",
+              "no": "OD872M",
+              "route": "KUL-NRT",
+              "dep": "2027-01-06T12:27"
+            }
+          }
+        }
+      ],
+      "tourCode": "SPPR6D5N"
     }
   ],
   "featuredPush": [
