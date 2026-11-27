@@ -130,7 +130,31 @@ def clean_flight(d):
     return out or None
 
 
-def build_trip_deps(trip_id, deps, sales, show_left=True, with_rate=False):
+CUST_LEFT_MAX = 5   # customer feed shows an exact seat count only at or below this
+SUP_FRESH_DAYS = 3   # supplier seats must have been checked within this many days
+
+
+def is_supplier(t):
+    x = str((t or {}).get("supplier") or "").strip().lower()
+    return bool(x) and x not in ("direct", "own", "sendiri")
+
+
+def seats_verified(d, trip):
+    """Direct departures are always ours to count. Departures bought from another
+    agent only count as verified if the supplier was checked recently."""
+    if not is_supplier(trip):
+        return True
+    on = d.get("supOn")
+    if not on:
+        return False
+    try:
+        from datetime import date as _d
+        return (_d.fromisoformat(today_str()) - _d.fromisoformat(on)).days <= SUP_FRESH_DAYS
+    except Exception:
+        return False
+
+
+def build_trip_deps(trip_id, deps, sales, show_left=True, with_rate=False, trip=None, cust_left=False):
     now = today_str()
     trip_deps = []
     for d in deps:
@@ -157,6 +181,13 @@ def build_trip_deps(trip_id, deps, sales, show_left=True, with_rate=False):
             seats = num(d.get("seats"))
             sold = sold_for(d.get("id"), sales)
             entry["left"] = max(0, int(seats - sold))
+        # Customer feed: exact count only when 1..5 seats remain AND the number is
+        # trustworthy. Otherwise the page just says "Few seats left".
+        if cust_left and not show_left and st == "low":
+            seats = num(d.get("seats"))
+            left = int(seats - sold_for(d.get("id"), sales))
+            if 1 <= left <= CUST_LEFT_MAX and seats_verified(d, trip):
+                entry["left"] = left
         trip_deps.append(entry)
     trip_deps.sort(key=lambda x: x["date"])
     return trip_deps
@@ -168,7 +199,7 @@ def build_customer_trips(trips, deps, sales):
         if t.get("active") is False:
             continue
         rooms = clean_rooms(t)
-        trip_deps = build_trip_deps(t["id"], deps, sales, show_left=False, with_rate=bool(rooms))
+        trip_deps = build_trip_deps(t["id"], deps, sales, show_left=False, with_rate=bool(rooms), trip=t, cust_left=True)
         price_my, price_nonmy = tier_num(t, "priceMY", "priceNonMY", "price")
         promo_my, promo_nonmy = tier_num(t, "promoMY", "promoNonMY", "promo")
         child_my, child_nonmy = tier_num(t, "priceChildMY", "priceChildNonMY")
